@@ -1,3 +1,7 @@
+import json
+import re
+from pathlib import Path
+
 import pytest
 from fastapi.testclient import TestClient
 from pydantic import ValidationError
@@ -6,6 +10,7 @@ from app.main import app
 from app.models import ReportRequest
 
 client = TestClient(app)
+SAMPLE = Path(__file__).resolve().parent.parent / "examples" / "sample.json"
 
 
 def ticket(**overrides):
@@ -87,3 +92,39 @@ def test_metrics_small_case():
         PriorityRow("critical", 1, None),
     ]
     assert len(df) == 5
+
+
+def test_report_end_to_end():
+    r = client.post("/report", json=json.loads(SAMPLE.read_text(encoding="utf-8")))
+    assert r.status_code == 200
+    assert r.headers["content-type"] == "application/pdf"
+    assert r.headers["content-disposition"] == 'attachment; filename="report.pdf"'
+    assert r.content.startswith(b"%PDF")
+    assert len(re.findall(rb"/Type /Page[^s]", r.content)) >= 3
+
+
+def test_report_rejects_invalid_contract_with_422():
+    r = client.post("/report", json=request(ticket(resolved_at=None)))
+    assert r.status_code == 422
+
+
+def test_report_survives_markup_in_title():
+    r = client.post("/report", json=request() | {"title": "<b>Q1 & <unclosed"})
+    assert r.status_code == 200
+
+
+def test_report_rejects_large_body_by_content_length():
+    body = b"x" * (5 * 1024 * 1024 + 1)
+    r = client.post("/report", content=body, headers={"content-type": "application/json"})
+    assert r.status_code == 413
+    assert r.json() == {"detail": "payload too large"}
+
+
+def test_report_rejects_large_chunked_body():
+    def chunks():
+        for _ in range(6):
+            yield b" " * (1024 * 1024)
+
+    r = client.post("/report", content=chunks(), headers={"content-type": "application/json"})
+    assert r.status_code == 413
+    assert r.json() == {"detail": "payload too large"}
