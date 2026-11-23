@@ -86,6 +86,12 @@ def test_contract_accepts_ticket_resolved_after_period():
     ReportRequest.model_validate(request(t))
 
 
+def test_report_rejects_duplicate_ids_with_422():
+    r = client.post("/report", json=request(ticket(id="A"), ticket(id="B"), ticket(id="A")))
+    assert r.status_code == 422
+    assert "duplicate ticket ids: A" in r.text
+
+
 def test_contract_rejects_inverted_period():
     body = request() | {"period": {"start": "2026-02-01", "end": "2026-01-01"}}
     with pytest.raises(ValidationError):

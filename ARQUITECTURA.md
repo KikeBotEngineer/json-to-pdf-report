@@ -67,7 +67,7 @@ El pipeline tiene **4 etapas**, cada una es una función pura en su propio módu
 | `title` | string | 1 a 120 caracteres |
 | `period.start` / `period.end` | date | `start <= end`, máximo 366 días |
 | `tickets` | array | 1 a 10 000 elementos |
-| `tickets[].id` | string | 1 a 50 caracteres |
+| `tickets[].id` | string | 1 a 50 caracteres, único en la petición |
 | `tickets[].status` | enum | `open`, `in_progress`, `resolved`, `closed` |
 | `tickets[].priority` | enum | `low`, `medium`, `high`, `critical` |
 | `tickets[].category` | string | 1 a 50 caracteres |

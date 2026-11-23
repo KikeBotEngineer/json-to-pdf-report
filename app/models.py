@@ -1,3 +1,4 @@
+from collections import Counter
 from datetime import UTC, date, datetime
 from enum import StrEnum
 from typing import Annotated
@@ -82,4 +83,12 @@ class ReportRequest(Strict):
         if outside:
             sample = ", ".join(outside[:5])
             raise ValueError(f"{len(outside)} ticket(s) created outside the period: {sample}")
+        return self
+
+    @model_validator(mode="after")
+    def check_unique_ids(self):
+        counts = Counter(t.id for t in self.tickets)
+        dupes = [i for i, n in counts.items() if n > 1]
+        if dupes:
+            raise ValueError(f"duplicate ticket ids: {', '.join(dupes[:5])}")
         return self
