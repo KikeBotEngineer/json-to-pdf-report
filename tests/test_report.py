@@ -145,6 +145,20 @@ def test_metrics_small_case():
     assert len(df) == 5
 
 
+def test_top_categories_does_not_collide_with_user_otras():
+    import pandas as pd
+
+    from app.charts import top_categories
+
+    cats = ["Otras"] * 10 + [c for c in "abcde" for _ in range(5)] + ["f", "g", "h"]
+    counts = top_categories(pd.DataFrame({"category": cats}))
+
+    assert counts.index.is_unique
+    assert counts["Otras"] == 10
+    assert counts["Otras (3 categorías)"] == 3
+    assert counts.sum() == len(cats)
+
+
 def test_report_end_to_end():
     r = client.post("/report", json=json.loads(SAMPLE.read_text(encoding="utf-8")))
     assert r.status_code == 200

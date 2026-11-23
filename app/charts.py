@@ -71,11 +71,18 @@ def resolution_histogram(df: pd.DataFrame) -> ChartImage:
     return _render("Distribución del tiempo de resolución", fig)
 
 
-def by_category(df: pd.DataFrame) -> ChartImage:
+def top_categories(df: pd.DataFrame) -> pd.Series:
     counts = df["category"].value_counts()
     if len(counts) > TOP_CATEGORIES:
-        rest = counts.iloc[TOP_CATEGORIES:].sum()
-        counts = pd.concat([counts.iloc[:TOP_CATEGORIES], pd.Series({"Otras": rest})])
+        rest = counts.iloc[TOP_CATEGORIES:]
+        # The count keeps this slice distinct from a user category literally named "Otras".
+        label = f"Otras ({len(rest)} categorías)"
+        counts = pd.concat([counts.iloc[:TOP_CATEGORIES], pd.Series({label: rest.sum()})])
+    return counts
+
+
+def by_category(df: pd.DataFrame) -> ChartImage:
+    counts = top_categories(df)
     fig, ax = _figure()
     pct = 100 * counts / counts.sum()
     _, labels = ax.pie(
