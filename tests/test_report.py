@@ -70,6 +70,22 @@ def test_contract_rejects_naive_resolved_before_aware_created():
         ReportRequest.model_validate(request(t))
 
 
+@pytest.mark.parametrize(
+    "created_at",
+    ["2025-12-31T23:59:59Z", "2026-02-01T00:00:00Z", "2026-01-31T20:00:00-05:00"],
+    ids=["before-start", "after-end", "after-end-in-utc"],
+)
+def test_report_rejects_ticket_outside_period_with_422(created_at):
+    t = ticket(created_at=created_at, resolved_at="2026-02-03T00:00:00Z")
+    r = client.post("/report", json=request(t))
+    assert r.status_code == 422
+
+
+def test_contract_accepts_ticket_resolved_after_period():
+    t = ticket(created_at="2026-01-31T10:00:00Z", resolved_at="2026-02-05T10:00:00Z")
+    ReportRequest.model_validate(request(t))
+
+
 def test_contract_rejects_inverted_period():
     body = request() | {"period": {"start": "2026-02-01", "end": "2026-01-01"}}
     with pytest.raises(ValidationError):
@@ -77,7 +93,8 @@ def test_contract_rejects_inverted_period():
 
 
 def test_contract_accepts_leap_year_period():
-    body = request() | {"period": {"start": "2024-01-01", "end": "2024-12-31"}}
+    t = ticket(created_at="2024-12-31T09:00:00Z", resolved_at="2024-12-31T12:00:00Z")
+    body = request(t) | {"period": {"start": "2024-01-01", "end": "2024-12-31"}}
     ReportRequest.model_validate(body)
 
 

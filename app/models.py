@@ -70,3 +70,16 @@ class ReportRequest(Strict):
     title: Annotated[str, Field(min_length=1, max_length=120)]
     period: Period
     tickets: Annotated[list[Ticket], Field(min_length=1, max_length=10_000)]
+
+    @model_validator(mode="after")
+    def check_tickets_in_period(self):
+        # Charts bucket by UTC day inside the period; metrics count every ticket.
+        # A ticket outside the period would make the two disagree silently.
+        start, end = self.period.start, self.period.end
+        outside = [
+            t.id for t in self.tickets if not start <= t.created_at.astimezone(UTC).date() <= end
+        ]
+        if outside:
+            sample = ", ".join(outside[:5])
+            raise ValueError(f"{len(outside)} ticket(s) created outside the period: {sample}")
+        return self

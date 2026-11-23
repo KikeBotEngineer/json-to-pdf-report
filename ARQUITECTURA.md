@@ -71,7 +71,7 @@ El pipeline tiene **4 etapas**, cada una es una función pura en su propio módu
 | `tickets[].status` | enum | `open`, `in_progress`, `resolved`, `closed` |
 | `tickets[].priority` | enum | `low`, `medium`, `high`, `critical` |
 | `tickets[].category` | string | 1 a 50 caracteres |
-| `tickets[].created_at` | datetime | requerido |
+| `tickets[].created_at` | datetime | requerido; su día (UTC) debe caer dentro del periodo. Sin zona horaria se asume UTC |
 | `tickets[].resolved_at` | datetime \| null | Si viene, `>= created_at`. Obligatorio si el estado es `resolved` o `closed` |
 
 **Responses**
