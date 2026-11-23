@@ -58,6 +58,18 @@ def test_contract_rejects_invalid_ticket(bad):
         ReportRequest.model_validate(request(bad))
 
 
+def test_report_accepts_naive_and_aware_mix():
+    t = ticket(created_at="2026-01-03T09:00:00", resolved_at="2026-01-03T12:00:00Z")
+    r = client.post("/report", json=request(t))
+    assert r.status_code == 200
+
+
+def test_contract_rejects_naive_resolved_before_aware_created():
+    t = ticket(created_at="2026-01-03T09:00:00+00:00", resolved_at="2026-01-03T08:00:00")
+    with pytest.raises(ValidationError):
+        ReportRequest.model_validate(request(t))
+
+
 def test_contract_rejects_inverted_period():
     body = request() | {"period": {"start": "2026-02-01", "end": "2026-01-01"}}
     with pytest.raises(ValidationError):

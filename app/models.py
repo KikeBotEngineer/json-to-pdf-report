@@ -1,8 +1,8 @@
-from datetime import date, datetime
+from datetime import UTC, date, datetime
 from enum import StrEnum
 from typing import Annotated
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 # One chart point per day; an unbounded period lets one request pin a worker.
 MAX_PERIOD_DAYS = 366
@@ -46,6 +46,15 @@ class Ticket(Strict):
     category: Annotated[str, Field(min_length=1, max_length=50)]
     created_at: datetime
     resolved_at: datetime | None = None
+
+    @field_validator("created_at", "resolved_at")
+    @classmethod
+    def assume_utc(cls, v: datetime | None) -> datetime | None:
+        # Naive timestamps are UTC (same as pd.to_datetime(utc=True) in metrics).
+        # Without this, comparing naive vs aware raises TypeError -> 500.
+        if v is not None and v.tzinfo is None:
+            return v.replace(tzinfo=UTC)
+        return v
 
     @model_validator(mode="after")
     def check_resolution(self):
