@@ -124,6 +124,12 @@ def test_report_survives_markup_in_title():
     assert r.status_code == 200
 
 
+@pytest.mark.parametrize("category", [r"$\foo$", r"$a^^b$", "costs $5 / $10"])
+def test_report_survives_mathtext_in_category(category):
+    r = client.post("/report", json=request(ticket(category=category)))
+    assert r.status_code == 200
+
+
 def test_report_rejects_large_body_by_content_length():
     body = b"x" * (5 * 1024 * 1024 + 1)
     r = client.post("/report", content=body, headers={"content-type": "application/json"})

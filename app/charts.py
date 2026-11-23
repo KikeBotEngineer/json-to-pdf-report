@@ -78,7 +78,7 @@ def by_category(df: pd.DataFrame) -> ChartImage:
         counts = pd.concat([counts.iloc[:TOP_CATEGORIES], pd.Series({"Otras": rest})])
     fig, ax = _figure()
     pct = 100 * counts / counts.sum()
-    ax.pie(
+    _, labels = ax.pie(
         counts.values,
         labels=[f"{name} ({p:.0f}%)" for name, p in pct.items()],
         colors=PALETTE[: len(counts)],
@@ -87,6 +87,9 @@ def by_category(df: pd.DataFrame) -> ChartImage:
         wedgeprops={"width": 0.4, "edgecolor": "white"},
         textprops={"fontsize": 8, "color": INK},
     )
+    # Categories are user input: a "$...$" would otherwise be parsed as mathtext.
+    for label in labels:
+        label.set_parse_math(False)
     ax.set_aspect("equal")
     return _render("Tickets por categoría", fig)
 
