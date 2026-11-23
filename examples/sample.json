@@ -1,0 +1,4809 @@
+{
+  "title": "Reporte de soporte",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+  },
+  "tickets": [
+    {
+      "id": "TCK-0499",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-01T00:44:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0038",
+      "status": "closed",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-01T02:21:00Z",
+      "resolved_at": "2026-01-03T15:41:51.488093Z"
+    },
+    {
+      "id": "TCK-0019",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-01T03:32:00Z",
+      "resolved_at": "2026-01-01T19:11:28.403102Z"
+    },
+    {
+      "id": "TCK-0567",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-01T05:05:00Z",
+      "resolved_at": "2026-01-01T20:10:07.400071Z"
+    },
+    {
+      "id": "TCK-0304",
+      "status": "open",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-01T05:39:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0376",
+      "status": "resolved",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-01T05:40:00Z",
+      "resolved_at": "2026-01-04T23:19:41.866191Z"
+    },
+    {
+      "id": "TCK-0356",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-01T06:58:00Z",
+      "resolved_at": "2026-01-01T20:56:45.831144Z"
+    },
+    {
+      "id": "TCK-0004",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-01T07:05:00Z",
+      "resolved_at": "2026-01-03T04:51:52.520007Z"
+    },
+    {
+      "id": "TCK-0547",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-01T09:43:00Z",
+      "resolved_at": "2026-01-01T17:23:43.893034Z"
+    },
+    {
+      "id": "TCK-0576",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-01T10:09:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0470",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-01T10:28:00Z",
+      "resolved_at": "2026-01-02T19:53:19.330172Z"
+    },
+    {
+      "id": "TCK-0449",
+      "status": "open",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-01T13:10:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0379",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-01T13:28:00Z",
+      "resolved_at": "2026-01-01T18:29:00.762151Z"
+    },
+    {
+      "id": "TCK-0530",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-01T13:30:00Z",
+      "resolved_at": "2026-01-03T16:35:41.603764Z"
+    },
+    {
+      "id": "TCK-0111",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-01T15:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0036",
+      "status": "open",
+      "priority": "critical",
+      "category": "other",
+      "created_at": "2026-01-01T16:07:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0490",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-01T21:19:00Z",
+      "resolved_at": "2026-01-02T09:05:24.959655Z"
+    },
+    {
+      "id": "TCK-0200",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-01T22:46:00Z",
+      "resolved_at": "2026-01-05T20:21:57.665505Z"
+    },
+    {
+      "id": "TCK-0326",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-01T23:46:00Z",
+      "resolved_at": "2026-01-02T03:26:28.313875Z"
+    },
+    {
+      "id": "TCK-0469",
+      "status": "in_progress",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-02T02:06:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0378",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-02T04:41:00Z",
+      "resolved_at": "2026-01-02T09:46:17.672432Z"
+    },
+    {
+      "id": "TCK-0545",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-02T05:58:00Z",
+      "resolved_at": "2026-01-03T06:52:31.629525Z"
+    },
+    {
+      "id": "TCK-0062",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-02T06:08:00Z",
+      "resolved_at": "2026-01-02T18:40:43.606216Z"
+    },
+    {
+      "id": "TCK-0496",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-02T06:48:00Z",
+      "resolved_at": "2026-01-02T19:06:23.523730Z"
+    },
+    {
+      "id": "TCK-0102",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-02T07:20:00Z",
+      "resolved_at": "2026-01-03T01:07:34.176974Z"
+    },
+    {
+      "id": "TCK-0273",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-02T09:04:00Z",
+      "resolved_at": "2026-01-03T02:56:13.702248Z"
+    },
+    {
+      "id": "TCK-0415",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-02T09:42:00Z",
+      "resolved_at": "2026-01-04T12:12:33.592643Z"
+    },
+    {
+      "id": "TCK-0092",
+      "status": "closed",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-02T09:53:00Z",
+      "resolved_at": "2026-01-02T13:41:46.904591Z"
+    },
+    {
+      "id": "TCK-0029",
+      "status": "open",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-02T10:18:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0012",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-02T11:03:00Z",
+      "resolved_at": "2026-01-04T23:24:31.797778Z"
+    },
+    {
+      "id": "TCK-0487",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-02T13:50:00Z",
+      "resolved_at": "2026-01-03T01:52:26.873000Z"
+    },
+    {
+      "id": "TCK-0525",
+      "status": "resolved",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-02T13:55:00Z",
+      "resolved_at": "2026-01-02T22:09:06.624588Z"
+    },
+    {
+      "id": "TCK-0043",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-02T19:24:00Z",
+      "resolved_at": "2026-01-03T19:15:59.819680Z"
+    },
+    {
+      "id": "TCK-0056",
+      "status": "closed",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-02T19:34:00Z",
+      "resolved_at": "2026-01-03T01:33:58.901147Z"
+    },
+    {
+      "id": "TCK-0128",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-02T19:56:00Z",
+      "resolved_at": "2026-01-04T18:24:42.876623Z"
+    },
+    {
+      "id": "TCK-0210",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-02T20:48:00Z",
+      "resolved_at": "2026-01-03T09:19:25.909455Z"
+    },
+    {
+      "id": "TCK-0245",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-02T21:46:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0485",
+      "status": "closed",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-02T22:38:00Z",
+      "resolved_at": "2026-01-05T00:53:46.009941Z"
+    },
+    {
+      "id": "TCK-0006",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-02T23:27:00Z",
+      "resolved_at": "2026-01-05T10:39:23.914088Z"
+    },
+    {
+      "id": "TCK-0521",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-03T00:44:00Z",
+      "resolved_at": "2026-01-03T17:04:41.916229Z"
+    },
+    {
+      "id": "TCK-0569",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-03T01:56:00Z",
+      "resolved_at": "2026-01-03T22:14:03.533190Z"
+    },
+    {
+      "id": "TCK-0584",
+      "status": "open",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-03T02:07:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0247",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-03T04:12:00Z",
+      "resolved_at": "2026-01-03T21:09:38.480665Z"
+    },
+    {
+      "id": "TCK-0336",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-03T05:10:00Z",
+      "resolved_at": "2026-01-03T20:10:16.770783Z"
+    },
+    {
+      "id": "TCK-0051",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-03T07:29:00Z",
+      "resolved_at": "2026-01-03T18:50:52.060914Z"
+    },
+    {
+      "id": "TCK-0435",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-03T08:33:00Z",
+      "resolved_at": "2026-01-03T23:12:57.315548Z"
+    },
+    {
+      "id": "TCK-0194",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-03T09:27:00Z",
+      "resolved_at": "2026-01-04T11:38:49.725404Z"
+    },
+    {
+      "id": "TCK-0413",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-03T10:33:00Z",
+      "resolved_at": "2026-01-04T04:05:01.509258Z"
+    },
+    {
+      "id": "TCK-0112",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-03T11:33:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0498",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-03T13:21:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0421",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-03T16:50:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0405",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-03T20:20:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0455",
+      "status": "closed",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-04T00:12:00Z",
+      "resolved_at": "2026-01-04T11:31:38.578605Z"
+    },
+    {
+      "id": "TCK-0184",
+      "status": "in_progress",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-04T01:19:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0241",
+      "status": "closed",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-04T01:47:00Z",
+      "resolved_at": "2026-01-04T09:53:27.544387Z"
+    },
+    {
+      "id": "TCK-0508",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-04T02:02:00Z",
+      "resolved_at": "2026-01-04T13:28:48.579797Z"
+    },
+    {
+      "id": "TCK-0028",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-04T05:32:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0345",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-04T07:29:00Z",
+      "resolved_at": "2026-01-04T10:28:15.274549Z"
+    },
+    {
+      "id": "TCK-0451",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "performance",
+      "created_at": "2026-01-04T07:43:00Z",
+      "resolved_at": "2026-01-04T10:47:27.049230Z"
+    },
+    {
+      "id": "TCK-0375",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-04T08:17:00Z",
+      "resolved_at": "2026-01-05T01:58:22.183641Z"
+    },
+    {
+      "id": "TCK-0205",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-04T10:18:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0035",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-04T10:20:00Z",
+      "resolved_at": "2026-01-04T14:53:22.941429Z"
+    },
+    {
+      "id": "TCK-0460",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-04T12:10:00Z",
+      "resolved_at": "2026-01-05T05:58:23.453027Z"
+    },
+    {
+      "id": "TCK-0464",
+      "status": "closed",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-04T13:04:00Z",
+      "resolved_at": "2026-01-05T22:36:17.735816Z"
+    },
+    {
+      "id": "TCK-0023",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-04T14:01:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0126",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-04T15:51:00Z",
+      "resolved_at": "2026-01-07T04:37:23.504084Z"
+    },
+    {
+      "id": "TCK-0082",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-04T16:00:00Z",
+      "resolved_at": "2026-01-04T20:11:41.102194Z"
+    },
+    {
+      "id": "TCK-0363",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-04T16:03:00Z",
+      "resolved_at": "2026-01-10T04:54:57.764650Z"
+    },
+    {
+      "id": "TCK-0179",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-04T16:14:00Z",
+      "resolved_at": "2026-01-05T05:44:49.751525Z"
+    },
+    {
+      "id": "TCK-0452",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-04T18:01:00Z",
+      "resolved_at": "2026-01-05T06:09:28.639450Z"
+    },
+    {
+      "id": "TCK-0365",
+      "status": "resolved",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-04T18:18:00Z",
+      "resolved_at": "2026-01-05T02:17:50.114371Z"
+    },
+    {
+      "id": "TCK-0212",
+      "status": "closed",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-04T20:06:00Z",
+      "resolved_at": "2026-01-04T23:07:21.795597Z"
+    },
+    {
+      "id": "TCK-0218",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-04T20:32:00Z",
+      "resolved_at": "2026-01-05T08:22:08.110330Z"
+    },
+    {
+      "id": "TCK-0104",
+      "status": "open",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-04T21:30:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0265",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-04T22:10:00Z",
+      "resolved_at": "2026-01-05T04:51:11.956057Z"
+    },
+    {
+      "id": "TCK-0419",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-04T23:00:00Z",
+      "resolved_at": "2026-01-06T04:33:03.905521Z"
+    },
+    {
+      "id": "TCK-0529",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-04T23:03:00Z",
+      "resolved_at": "2026-01-05T05:15:01.271612Z"
+    },
+    {
+      "id": "TCK-0261",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-04T23:53:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0566",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-05T00:09:00Z",
+      "resolved_at": "2026-01-05T03:24:30.900635Z"
+    },
+    {
+      "id": "TCK-0306",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-05T01:42:00Z",
+      "resolved_at": "2026-01-06T01:19:55.808395Z"
+    },
+    {
+      "id": "TCK-0324",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-05T03:19:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0520",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-05T03:32:00Z",
+      "resolved_at": "2026-01-06T04:16:10.014028Z"
+    },
+    {
+      "id": "TCK-0479",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-05T03:37:00Z",
+      "resolved_at": "2026-01-05T19:06:49.185375Z"
+    },
+    {
+      "id": "TCK-0586",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-05T05:31:00Z",
+      "resolved_at": "2026-01-05T19:18:46.734165Z"
+    },
+    {
+      "id": "TCK-0427",
+      "status": "open",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-05T05:41:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0429",
+      "status": "closed",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-05T05:44:00Z",
+      "resolved_at": "2026-01-05T20:05:48.049968Z"
+    },
+    {
+      "id": "TCK-0135",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-05T05:48:00Z",
+      "resolved_at": "2026-01-06T04:40:25.123930Z"
+    },
+    {
+      "id": "TCK-0436",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-05T07:57:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0366",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-05T08:09:00Z",
+      "resolved_at": "2026-01-05T22:51:40.183247Z"
+    },
+    {
+      "id": "TCK-0283",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-05T09:36:00Z",
+      "resolved_at": "2026-01-06T00:21:01.214940Z"
+    },
+    {
+      "id": "TCK-0538",
+      "status": "closed",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-05T11:16:00Z",
+      "resolved_at": "2026-01-05T14:00:53.714611Z"
+    },
+    {
+      "id": "TCK-0432",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-05T12:45:00Z",
+      "resolved_at": "2026-01-09T03:22:52.969131Z"
+    },
+    {
+      "id": "TCK-0335",
+      "status": "open",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-05T14:12:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0532",
+      "status": "open",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-05T14:18:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0581",
+      "status": "open",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-05T14:38:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0096",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-05T15:18:00Z",
+      "resolved_at": "2026-01-06T17:49:08.747507Z"
+    },
+    {
+      "id": "TCK-0439",
+      "status": "open",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-05T16:43:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0201",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-05T19:37:00Z",
+      "resolved_at": "2026-01-06T03:15:27.245301Z"
+    },
+    {
+      "id": "TCK-0076",
+      "status": "closed",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-05T20:25:00Z",
+      "resolved_at": "2026-01-06T09:27:51.155476Z"
+    },
+    {
+      "id": "TCK-0152",
+      "status": "closed",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-05T20:29:00Z",
+      "resolved_at": "2026-01-05T23:55:41.940577Z"
+    },
+    {
+      "id": "TCK-0280",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-05T21:24:00Z",
+      "resolved_at": "2026-01-06T10:47:34.430235Z"
+    },
+    {
+      "id": "TCK-0188",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-05T22:12:00Z",
+      "resolved_at": "2026-01-06T17:04:14.924204Z"
+    },
+    {
+      "id": "TCK-0501",
+      "status": "resolved",
+      "priority": "high",
+      "category": "security",
+      "created_at": "2026-01-06T01:09:00Z",
+      "resolved_at": "2026-01-06T23:05:38.583076Z"
+    },
+    {
+      "id": "TCK-0311",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-06T03:02:00Z",
+      "resolved_at": "2026-01-06T15:40:28.920365Z"
+    },
+    {
+      "id": "TCK-0181",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-06T04:58:00Z",
+      "resolved_at": "2026-01-09T05:01:04.455555Z"
+    },
+    {
+      "id": "TCK-0094",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-06T05:06:00Z",
+      "resolved_at": "2026-01-06T17:43:15.132891Z"
+    },
+    {
+      "id": "TCK-0123",
+      "status": "closed",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-06T05:21:00Z",
+      "resolved_at": "2026-01-07T17:02:10.147954Z"
+    },
+    {
+      "id": "TCK-0410",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-06T07:44:00Z",
+      "resolved_at": "2026-01-06T14:59:32.664292Z"
+    },
+    {
+      "id": "TCK-0599",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-06T09:39:00Z",
+      "resolved_at": "2026-01-06T15:35:08.226369Z"
+    },
+    {
+      "id": "TCK-0198",
+      "status": "closed",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-06T11:03:00Z",
+      "resolved_at": "2026-01-07T01:40:48.317227Z"
+    },
+    {
+      "id": "TCK-0526",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-06T11:22:00Z",
+      "resolved_at": "2026-01-08T18:28:59.446198Z"
+    },
+    {
+      "id": "TCK-0235",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-06T13:05:00Z",
+      "resolved_at": "2026-01-06T23:22:31.814013Z"
+    },
+    {
+      "id": "TCK-0169",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-06T13:25:00Z",
+      "resolved_at": "2026-01-07T04:08:50.790134Z"
+    },
+    {
+      "id": "TCK-0443",
+      "status": "open",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-06T14:31:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0268",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-06T15:37:00Z",
+      "resolved_at": "2026-01-06T23:54:26.776574Z"
+    },
+    {
+      "id": "TCK-0175",
+      "status": "open",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-06T18:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0431",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-06T22:38:00Z",
+      "resolved_at": "2026-01-07T20:06:19.174433Z"
+    },
+    {
+      "id": "TCK-0591",
+      "status": "resolved",
+      "priority": "high",
+      "category": "reports",
+      "created_at": "2026-01-06T22:42:00Z",
+      "resolved_at": "2026-01-07T06:20:42.650546Z"
+    },
+    {
+      "id": "TCK-0325",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-07T00:07:00Z",
+      "resolved_at": "2026-01-08T07:08:16.073252Z"
+    },
+    {
+      "id": "TCK-0047",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-07T00:40:00Z",
+      "resolved_at": "2026-01-08T17:45:54.730291Z"
+    },
+    {
+      "id": "TCK-0588",
+      "status": "closed",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-07T00:44:00Z",
+      "resolved_at": "2026-01-08T16:39:58.101487Z"
+    },
+    {
+      "id": "TCK-0440",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-07T01:25:00Z",
+      "resolved_at": "2026-01-09T08:10:45.411805Z"
+    },
+    {
+      "id": "TCK-0319",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-07T01:53:00Z",
+      "resolved_at": "2026-01-08T06:16:46.496789Z"
+    },
+    {
+      "id": "TCK-0570",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-07T02:08:00Z",
+      "resolved_at": "2026-01-07T04:09:01.962126Z"
+    },
+    {
+      "id": "TCK-0049",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-07T02:40:00Z",
+      "resolved_at": "2026-01-08T23:09:02.738696Z"
+    },
+    {
+      "id": "TCK-0137",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-07T05:06:00Z",
+      "resolved_at": "2026-01-08T16:59:50.143559Z"
+    },
+    {
+      "id": "TCK-0257",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-07T06:23:00Z",
+      "resolved_at": "2026-01-08T14:28:03.035715Z"
+    },
+    {
+      "id": "TCK-0014",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-07T08:30:00Z",
+      "resolved_at": "2026-01-07T22:04:39.669926Z"
+    },
+    {
+      "id": "TCK-0165",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-07T08:40:00Z",
+      "resolved_at": "2026-01-07T16:51:36.513606Z"
+    },
+    {
+      "id": "TCK-0286",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-07T08:40:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0481",
+      "status": "open",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-07T08:41:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0399",
+      "status": "open",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-07T10:44:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0472",
+      "status": "closed",
+      "priority": "critical",
+      "category": "security",
+      "created_at": "2026-01-07T11:30:00Z",
+      "resolved_at": "2026-01-07T15:37:56.999379Z"
+    },
+    {
+      "id": "TCK-0254",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "performance",
+      "created_at": "2026-01-07T11:57:00Z",
+      "resolved_at": "2026-01-08T01:12:53.293833Z"
+    },
+    {
+      "id": "TCK-0338",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-07T12:28:00Z",
+      "resolved_at": "2026-01-08T13:56:14.856128Z"
+    },
+    {
+      "id": "TCK-0351",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-07T15:23:00Z",
+      "resolved_at": "2026-01-09T12:40:25.908272Z"
+    },
+    {
+      "id": "TCK-0232",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-07T15:31:00Z",
+      "resolved_at": "2026-01-08T00:28:40.869489Z"
+    },
+    {
+      "id": "TCK-0172",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-07T17:10:00Z",
+      "resolved_at": "2026-01-11T01:08:25.970439Z"
+    },
+    {
+      "id": "TCK-0055",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-07T17:45:00Z",
+      "resolved_at": "2026-01-08T10:01:40.114090Z"
+    },
+    {
+      "id": "TCK-0531",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-07T17:52:00Z",
+      "resolved_at": "2026-01-08T16:16:25.311623Z"
+    },
+    {
+      "id": "TCK-0054",
+      "status": "open",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-07T18:48:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0553",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-07T19:45:00Z",
+      "resolved_at": "2026-01-09T02:42:07.340639Z"
+    },
+    {
+      "id": "TCK-0563",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-07T20:41:00Z",
+      "resolved_at": "2026-01-08T12:47:02.168660Z"
+    },
+    {
+      "id": "TCK-0211",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-07T20:46:00Z",
+      "resolved_at": "2026-01-10T05:13:53.743782Z"
+    },
+    {
+      "id": "TCK-0142",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-07T22:08:00Z",
+      "resolved_at": "2026-01-08T06:04:48.900141Z"
+    },
+    {
+      "id": "TCK-0461",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-08T03:49:00Z",
+      "resolved_at": "2026-01-09T00:26:34.264382Z"
+    },
+    {
+      "id": "TCK-0079",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-08T05:50:00Z",
+      "resolved_at": "2026-01-09T15:51:09.216538Z"
+    },
+    {
+      "id": "TCK-0016",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-08T06:44:00Z",
+      "resolved_at": "2026-01-10T18:46:02.650104Z"
+    },
+    {
+      "id": "TCK-0229",
+      "status": "closed",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-08T07:06:00Z",
+      "resolved_at": "2026-01-08T19:47:24.208184Z"
+    },
+    {
+      "id": "TCK-0222",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-08T09:13:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0369",
+      "status": "resolved",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-08T09:26:00Z",
+      "resolved_at": "2026-01-09T22:10:11.937334Z"
+    },
+    {
+      "id": "TCK-0458",
+      "status": "closed",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-08T10:56:00Z",
+      "resolved_at": "2026-01-08T18:52:23.790279Z"
+    },
+    {
+      "id": "TCK-0441",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-08T11:15:00Z",
+      "resolved_at": "2026-01-09T00:38:08.958351Z"
+    },
+    {
+      "id": "TCK-0514",
+      "status": "open",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-08T12:13:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0087",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-08T12:16:00Z",
+      "resolved_at": "2026-01-09T19:42:03.637963Z"
+    },
+    {
+      "id": "TCK-0223",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-08T12:48:00Z",
+      "resolved_at": "2026-01-09T13:31:28.436417Z"
+    },
+    {
+      "id": "TCK-0124",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-08T13:13:00Z",
+      "resolved_at": "2026-01-11T22:05:38.722733Z"
+    },
+    {
+      "id": "TCK-0037",
+      "status": "closed",
+      "priority": "high",
+      "category": "reports",
+      "created_at": "2026-01-08T13:39:00Z",
+      "resolved_at": "2026-01-08T19:53:42.327483Z"
+    },
+    {
+      "id": "TCK-0354",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-08T15:45:00Z",
+      "resolved_at": "2026-01-09T21:13:25.751949Z"
+    },
+    {
+      "id": "TCK-0422",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-08T15:54:00Z",
+      "resolved_at": "2026-01-08T23:50:43.131584Z"
+    },
+    {
+      "id": "TCK-0148",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-08T17:40:00Z",
+      "resolved_at": "2026-01-08T20:13:12.816473Z"
+    },
+    {
+      "id": "TCK-0512",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-08T17:48:00Z",
+      "resolved_at": "2026-01-11T02:22:56.369984Z"
+    },
+    {
+      "id": "TCK-0294",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-08T21:09:00Z",
+      "resolved_at": "2026-01-09T13:08:14.498739Z"
+    },
+    {
+      "id": "TCK-0412",
+      "status": "closed",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-08T21:13:00Z",
+      "resolved_at": "2026-01-09T00:41:38.575007Z"
+    },
+    {
+      "id": "TCK-0307",
+      "status": "closed",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-08T23:13:00Z",
+      "resolved_at": "2026-01-09T14:12:15.871922Z"
+    },
+    {
+      "id": "TCK-0339",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-08T23:17:00Z",
+      "resolved_at": "2026-01-09T10:06:09.027481Z"
+    },
+    {
+      "id": "TCK-0250",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-09T05:06:00Z",
+      "resolved_at": "2026-01-09T08:23:20.068935Z"
+    },
+    {
+      "id": "TCK-0341",
+      "status": "resolved",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-09T08:50:00Z",
+      "resolved_at": "2026-01-11T19:03:48.894306Z"
+    },
+    {
+      "id": "TCK-0109",
+      "status": "closed",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-09T10:13:00Z",
+      "resolved_at": "2026-01-09T10:48:38.323679Z"
+    },
+    {
+      "id": "TCK-0042",
+      "status": "closed",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-09T10:58:00Z",
+      "resolved_at": "2026-01-12T07:57:46.638601Z"
+    },
+    {
+      "id": "TCK-0258",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-09T11:12:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0238",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-09T12:35:00Z",
+      "resolved_at": "2026-01-10T11:37:11.429977Z"
+    },
+    {
+      "id": "TCK-0556",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-09T15:26:00Z",
+      "resolved_at": "2026-01-09T16:50:56.791175Z"
+    },
+    {
+      "id": "TCK-0034",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-09T15:45:00Z",
+      "resolved_at": "2026-01-10T23:32:19.895388Z"
+    },
+    {
+      "id": "TCK-0527",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-09T18:30:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0203",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-09T19:47:00Z",
+      "resolved_at": "2026-01-11T14:09:39.627573Z"
+    },
+    {
+      "id": "TCK-0468",
+      "status": "closed",
+      "priority": "critical",
+      "category": "notifications",
+      "created_at": "2026-01-09T21:27:00Z",
+      "resolved_at": "2026-01-10T03:30:46.817308Z"
+    },
+    {
+      "id": "TCK-0404",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-09T23:31:00Z",
+      "resolved_at": "2026-01-10T06:36:09.715375Z"
+    },
+    {
+      "id": "TCK-0003",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-10T01:11:00Z",
+      "resolved_at": "2026-01-13T10:07:55.161053Z"
+    },
+    {
+      "id": "TCK-0284",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-10T01:25:00Z",
+      "resolved_at": "2026-01-10T11:32:06.232203Z"
+    },
+    {
+      "id": "TCK-0579",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-10T04:16:00Z",
+      "resolved_at": "2026-01-10T17:12:09.624317Z"
+    },
+    {
+      "id": "TCK-0476",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-10T05:24:00Z",
+      "resolved_at": "2026-01-11T08:31:14.292174Z"
+    },
+    {
+      "id": "TCK-0453",
+      "status": "open",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-10T05:56:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0275",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-10T06:50:00Z",
+      "resolved_at": "2026-01-10T20:45:58.398097Z"
+    },
+    {
+      "id": "TCK-0044",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-10T07:06:00Z",
+      "resolved_at": "2026-01-10T11:18:48.085443Z"
+    },
+    {
+      "id": "TCK-0171",
+      "status": "open",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-10T10:16:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0368",
+      "status": "closed",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-10T10:16:00Z",
+      "resolved_at": "2026-01-11T15:25:06.919847Z"
+    },
+    {
+      "id": "TCK-0389",
+      "status": "closed",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-10T12:59:00Z",
+      "resolved_at": "2026-01-10T15:38:46.508664Z"
+    },
+    {
+      "id": "TCK-0119",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-10T14:29:00Z",
+      "resolved_at": "2026-01-11T11:35:28.742993Z"
+    },
+    {
+      "id": "TCK-0572",
+      "status": "in_progress",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-10T14:40:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0197",
+      "status": "open",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-10T14:43:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0070",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-10T17:25:00Z",
+      "resolved_at": "2026-01-11T12:48:21.395058Z"
+    },
+    {
+      "id": "TCK-0494",
+      "status": "closed",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-10T23:39:00Z",
+      "resolved_at": "2026-01-11T00:24:10.183492Z"
+    },
+    {
+      "id": "TCK-0086",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-10T23:40:00Z",
+      "resolved_at": "2026-01-11T16:02:05.377038Z"
+    },
+    {
+      "id": "TCK-0106",
+      "status": "closed",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-11T02:02:00Z",
+      "resolved_at": "2026-01-12T03:15:27.596939Z"
+    },
+    {
+      "id": "TCK-0482",
+      "status": "open",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-11T02:47:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0597",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-11T03:15:00Z",
+      "resolved_at": "2026-01-12T12:47:22.761123Z"
+    },
+    {
+      "id": "TCK-0091",
+      "status": "open",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-11T04:54:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0511",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-11T06:23:00Z",
+      "resolved_at": "2026-01-12T17:39:56.063332Z"
+    },
+    {
+      "id": "TCK-0437",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-11T07:03:00Z",
+      "resolved_at": "2026-01-12T14:31:40.423566Z"
+    },
+    {
+      "id": "TCK-0523",
+      "status": "resolved",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-11T08:30:00Z",
+      "resolved_at": "2026-01-11T21:11:56.322321Z"
+    },
+    {
+      "id": "TCK-0008",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-11T08:55:00Z",
+      "resolved_at": "2026-01-12T07:07:09.286663Z"
+    },
+    {
+      "id": "TCK-0127",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-11T10:02:00Z",
+      "resolved_at": "2026-01-21T14:18:11.528067Z"
+    },
+    {
+      "id": "TCK-0204",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-11T18:04:00Z",
+      "resolved_at": "2026-01-11T21:54:42.155140Z"
+    },
+    {
+      "id": "TCK-0316",
+      "status": "open",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-11T18:06:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0058",
+      "status": "closed",
+      "priority": "critical",
+      "category": "notifications",
+      "created_at": "2026-01-11T18:34:00Z",
+      "resolved_at": "2026-01-11T23:56:01.511421Z"
+    },
+    {
+      "id": "TCK-0264",
+      "status": "closed",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-11T18:34:00Z",
+      "resolved_at": "2026-01-12T03:33:50.178223Z"
+    },
+    {
+      "id": "TCK-0174",
+      "status": "open",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-11T19:53:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0471",
+      "status": "open",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-11T20:08:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0105",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-11T22:29:00Z",
+      "resolved_at": "2026-01-13T12:09:49.737498Z"
+    },
+    {
+      "id": "TCK-0361",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-11T23:12:00Z",
+      "resolved_at": "2026-01-12T06:34:15.012127Z"
+    },
+    {
+      "id": "TCK-0543",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-12T00:15:00Z",
+      "resolved_at": "2026-01-12T11:56:44.401758Z"
+    },
+    {
+      "id": "TCK-0292",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-12T00:32:00Z",
+      "resolved_at": "2026-01-12T06:27:07.374152Z"
+    },
+    {
+      "id": "TCK-0347",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-12T00:58:00Z",
+      "resolved_at": "2026-01-12T20:46:06.011868Z"
+    },
+    {
+      "id": "TCK-0380",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-12T01:08:00Z",
+      "resolved_at": "2026-01-12T10:08:37.127923Z"
+    },
+    {
+      "id": "TCK-0343",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-12T01:15:00Z",
+      "resolved_at": "2026-01-12T19:24:30.386457Z"
+    },
+    {
+      "id": "TCK-0402",
+      "status": "closed",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-12T02:25:00Z",
+      "resolved_at": "2026-01-12T05:34:02.227672Z"
+    },
+    {
+      "id": "TCK-0101",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-12T04:08:00Z",
+      "resolved_at": "2026-01-13T16:06:59.200676Z"
+    },
+    {
+      "id": "TCK-0383",
+      "status": "open",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-12T05:20:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0425",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-12T06:23:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0027",
+      "status": "closed",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-12T06:46:00Z",
+      "resolved_at": "2026-01-12T16:56:16.149760Z"
+    },
+    {
+      "id": "TCK-0277",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-12T06:47:00Z",
+      "resolved_at": "2026-01-13T00:51:49.772210Z"
+    },
+    {
+      "id": "TCK-0594",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-12T07:30:00Z",
+      "resolved_at": "2026-01-13T00:13:13.191874Z"
+    },
+    {
+      "id": "TCK-0108",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-12T10:35:00Z",
+      "resolved_at": "2026-01-12T18:32:33.487144Z"
+    },
+    {
+      "id": "TCK-0090",
+      "status": "closed",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-12T11:32:00Z",
+      "resolved_at": "2026-01-13T06:35:08.267516Z"
+    },
+    {
+      "id": "TCK-0300",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-12T16:06:00Z",
+      "resolved_at": "2026-01-13T19:49:20.402105Z"
+    },
+    {
+      "id": "TCK-0555",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-12T19:21:00Z",
+      "resolved_at": "2026-01-13T03:00:51.086775Z"
+    },
+    {
+      "id": "TCK-0475",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-12T21:04:00Z",
+      "resolved_at": "2026-01-13T09:35:07.592641Z"
+    },
+    {
+      "id": "TCK-0349",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-12T21:41:00Z",
+      "resolved_at": "2026-01-13T01:09:42.965674Z"
+    },
+    {
+      "id": "TCK-0259",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-12T21:55:00Z",
+      "resolved_at": "2026-01-15T14:20:12.055481Z"
+    },
+    {
+      "id": "TCK-0516",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-13T01:44:00Z",
+      "resolved_at": "2026-01-13T12:40:52.350378Z"
+    },
+    {
+      "id": "TCK-0315",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-13T03:37:00Z",
+      "resolved_at": "2026-01-14T23:33:57.254036Z"
+    },
+    {
+      "id": "TCK-0190",
+      "status": "open",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-13T04:07:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0536",
+      "status": "open",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-13T05:21:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0577",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-13T06:53:00Z",
+      "resolved_at": "2026-01-14T14:29:39.374032Z"
+    },
+    {
+      "id": "TCK-0301",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-13T08:40:00Z",
+      "resolved_at": "2026-01-13T13:35:43.206225Z"
+    },
+    {
+      "id": "TCK-0159",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-13T09:40:00Z",
+      "resolved_at": "2026-01-14T18:48:28.070306Z"
+    },
+    {
+      "id": "TCK-0298",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-13T10:41:00Z",
+      "resolved_at": "2026-01-13T19:46:36.026831Z"
+    },
+    {
+      "id": "TCK-0542",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-13T11:15:00Z",
+      "resolved_at": "2026-01-13T16:57:36.032975Z"
+    },
+    {
+      "id": "TCK-0434",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-13T11:18:00Z",
+      "resolved_at": "2026-01-13T23:50:07.503552Z"
+    },
+    {
+      "id": "TCK-0359",
+      "status": "open",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-13T12:05:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0001",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-13T12:24:00Z",
+      "resolved_at": "2026-01-14T08:22:17.257323Z"
+    },
+    {
+      "id": "TCK-0424",
+      "status": "resolved",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-13T14:54:00Z",
+      "resolved_at": "2026-01-15T20:19:05.253531Z"
+    },
+    {
+      "id": "TCK-0061",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-13T16:52:00Z",
+      "resolved_at": "2026-01-14T12:38:55.977611Z"
+    },
+    {
+      "id": "TCK-0103",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-13T17:27:00Z",
+      "resolved_at": "2026-01-20T21:31:45.281323Z"
+    },
+    {
+      "id": "TCK-0367",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-13T18:14:00Z",
+      "resolved_at": "2026-01-16T09:24:27.244000Z"
+    },
+    {
+      "id": "TCK-0226",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-13T19:46:00Z",
+      "resolved_at": "2026-01-15T10:33:35.230691Z"
+    },
+    {
+      "id": "TCK-0348",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-13T21:10:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0071",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-13T21:58:00Z",
+      "resolved_at": "2026-01-14T17:02:14.052820Z"
+    },
+    {
+      "id": "TCK-0081",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-14T00:05:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0209",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-14T01:33:00Z",
+      "resolved_at": "2026-01-18T12:00:28.973337Z"
+    },
+    {
+      "id": "TCK-0297",
+      "status": "closed",
+      "priority": "critical",
+      "category": "performance",
+      "created_at": "2026-01-14T03:40:00Z",
+      "resolved_at": "2026-01-14T11:06:12.618691Z"
+    },
+    {
+      "id": "TCK-0337",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-14T03:57:00Z",
+      "resolved_at": "2026-01-15T18:21:49.384623Z"
+    },
+    {
+      "id": "TCK-0309",
+      "status": "closed",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-14T04:10:00Z",
+      "resolved_at": "2026-01-14T13:02:51.948880Z"
+    },
+    {
+      "id": "TCK-0558",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-14T08:53:00Z",
+      "resolved_at": "2026-01-14T12:04:48.040100Z"
+    },
+    {
+      "id": "TCK-0504",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-14T09:41:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0582",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-14T11:20:00Z",
+      "resolved_at": "2026-01-15T00:08:06.445298Z"
+    },
+    {
+      "id": "TCK-0409",
+      "status": "closed",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-14T12:53:00Z",
+      "resolved_at": "2026-01-15T21:23:30.802880Z"
+    },
+    {
+      "id": "TCK-0332",
+      "status": "closed",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-14T13:53:00Z",
+      "resolved_at": "2026-01-14T20:33:37.703897Z"
+    },
+    {
+      "id": "TCK-0020",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-14T13:58:00Z",
+      "resolved_at": "2026-01-15T10:42:09.307622Z"
+    },
+    {
+      "id": "TCK-0382",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-14T15:24:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0401",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-14T15:58:00Z",
+      "resolved_at": "2026-01-14T22:36:20.621873Z"
+    },
+    {
+      "id": "TCK-0386",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-14T16:09:00Z",
+      "resolved_at": "2026-01-15T02:02:31.354054Z"
+    },
+    {
+      "id": "TCK-0068",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-14T16:43:00Z",
+      "resolved_at": "2026-01-15T01:00:26.149267Z"
+    },
+    {
+      "id": "TCK-0502",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-14T17:36:00Z",
+      "resolved_at": "2026-01-16T22:27:02.022420Z"
+    },
+    {
+      "id": "TCK-0537",
+      "status": "open",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-14T19:01:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0115",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-14T19:52:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0467",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-14T19:57:00Z",
+      "resolved_at": "2026-01-16T18:15:27.034024Z"
+    },
+    {
+      "id": "TCK-0060",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-14T21:20:00Z",
+      "resolved_at": "2026-01-15T03:12:53.859561Z"
+    },
+    {
+      "id": "TCK-0560",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-14T23:25:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0022",
+      "status": "open",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-14T23:53:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0318",
+      "status": "closed",
+      "priority": "high",
+      "category": "security",
+      "created_at": "2026-01-15T03:40:00Z",
+      "resolved_at": "2026-01-15T20:08:56.745707Z"
+    },
+    {
+      "id": "TCK-0026",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-15T04:28:00Z",
+      "resolved_at": "2026-01-16T00:08:02.645413Z"
+    },
+    {
+      "id": "TCK-0183",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-15T05:23:00Z",
+      "resolved_at": "2026-01-15T11:18:32.821395Z"
+    },
+    {
+      "id": "TCK-0444",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-15T07:31:00Z",
+      "resolved_at": "2026-01-15T12:37:08.160811Z"
+    },
+    {
+      "id": "TCK-0013",
+      "status": "closed",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-15T07:42:00Z",
+      "resolved_at": "2026-01-15T15:53:20.265377Z"
+    },
+    {
+      "id": "TCK-0495",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-15T11:20:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0507",
+      "status": "closed",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-15T12:59:00Z",
+      "resolved_at": "2026-01-22T06:38:27.597570Z"
+    },
+    {
+      "id": "TCK-0350",
+      "status": "closed",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-15T13:46:00Z",
+      "resolved_at": "2026-01-16T09:30:52.645044Z"
+    },
+    {
+      "id": "TCK-0130",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-15T14:40:00Z",
+      "resolved_at": "2026-01-19T11:34:31.519570Z"
+    },
+    {
+      "id": "TCK-0140",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-15T15:28:00Z",
+      "resolved_at": "2026-01-16T01:32:06.611385Z"
+    },
+    {
+      "id": "TCK-0193",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-15T18:18:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0180",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-15T19:11:00Z",
+      "resolved_at": "2026-01-16T07:10:37.913155Z"
+    },
+    {
+      "id": "TCK-0585",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-15T22:59:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0385",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-15T23:56:00Z",
+      "resolved_at": "2026-01-16T15:31:04.783694Z"
+    },
+    {
+      "id": "TCK-0303",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-16T00:46:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0515",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-16T01:38:00Z",
+      "resolved_at": "2026-01-16T19:50:58.037134Z"
+    },
+    {
+      "id": "TCK-0535",
+      "status": "open",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-16T02:04:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0395",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-16T02:11:00Z",
+      "resolved_at": "2026-01-16T11:23:54.332023Z"
+    },
+    {
+      "id": "TCK-0242",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-16T03:11:00Z",
+      "resolved_at": "2026-01-16T06:51:44.760801Z"
+    },
+    {
+      "id": "TCK-0346",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-16T03:41:00Z",
+      "resolved_at": "2026-01-16T14:43:45.244323Z"
+    },
+    {
+      "id": "TCK-0170",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-16T04:16:00Z",
+      "resolved_at": "2026-01-17T00:19:24.212859Z"
+    },
+    {
+      "id": "TCK-0559",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-16T06:36:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0552",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-16T07:18:00Z",
+      "resolved_at": "2026-01-17T18:31:41.111375Z"
+    },
+    {
+      "id": "TCK-0005",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-16T07:39:00Z",
+      "resolved_at": "2026-01-16T20:05:16.946064Z"
+    },
+    {
+      "id": "TCK-0312",
+      "status": "closed",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-16T08:12:00Z",
+      "resolved_at": "2026-01-19T11:43:31.856386Z"
+    },
+    {
+      "id": "TCK-0353",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-16T08:42:00Z",
+      "resolved_at": "2026-01-16T11:28:59.336884Z"
+    },
+    {
+      "id": "TCK-0513",
+      "status": "closed",
+      "priority": "critical",
+      "category": "performance",
+      "created_at": "2026-01-16T09:07:00Z",
+      "resolved_at": "2026-01-16T13:18:22.937115Z"
+    },
+    {
+      "id": "TCK-0160",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-16T09:58:00Z",
+      "resolved_at": "2026-01-17T03:30:42.181874Z"
+    },
+    {
+      "id": "TCK-0202",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-16T10:50:00Z",
+      "resolved_at": "2026-01-16T14:01:28.310383Z"
+    },
+    {
+      "id": "TCK-0191",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-16T11:10:00Z",
+      "resolved_at": "2026-01-16T17:23:54.664859Z"
+    },
+    {
+      "id": "TCK-0500",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-16T12:11:00Z",
+      "resolved_at": "2026-01-17T04:16:11.710094Z"
+    },
+    {
+      "id": "TCK-0098",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-16T12:42:00Z",
+      "resolved_at": "2026-01-16T18:22:50.437783Z"
+    },
+    {
+      "id": "TCK-0107",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-16T15:28:00Z",
+      "resolved_at": "2026-01-17T03:30:11.824056Z"
+    },
+    {
+      "id": "TCK-0327",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-16T16:19:00Z",
+      "resolved_at": "2026-01-18T22:56:44.818750Z"
+    },
+    {
+      "id": "TCK-0299",
+      "status": "closed",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-16T16:58:00Z",
+      "resolved_at": "2026-01-17T04:59:16.088879Z"
+    },
+    {
+      "id": "TCK-0276",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-16T17:14:00Z",
+      "resolved_at": "2026-01-16T19:14:01.012343Z"
+    },
+    {
+      "id": "TCK-0371",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-16T17:46:00Z",
+      "resolved_at": "2026-01-16T23:49:47.772210Z"
+    },
+    {
+      "id": "TCK-0331",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-16T19:51:00Z",
+      "resolved_at": "2026-01-17T11:03:48.696197Z"
+    },
+    {
+      "id": "TCK-0230",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-16T21:50:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0544",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-16T22:01:00Z",
+      "resolved_at": "2026-01-17T02:50:28.137456Z"
+    },
+    {
+      "id": "TCK-0155",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-17T00:49:00Z",
+      "resolved_at": "2026-01-17T19:27:04.258539Z"
+    },
+    {
+      "id": "TCK-0252",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-17T01:05:00Z",
+      "resolved_at": "2026-01-17T11:39:26.241069Z"
+    },
+    {
+      "id": "TCK-0199",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-17T02:50:00Z",
+      "resolved_at": "2026-01-17T13:02:28.643270Z"
+    },
+    {
+      "id": "TCK-0147",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-17T07:32:00Z",
+      "resolved_at": "2026-01-18T08:04:11.400008Z"
+    },
+    {
+      "id": "TCK-0583",
+      "status": "closed",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-17T09:27:00Z",
+      "resolved_at": "2026-01-18T00:03:34.848634Z"
+    },
+    {
+      "id": "TCK-0406",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-17T15:32:00Z",
+      "resolved_at": "2026-01-18T03:07:22.455250Z"
+    },
+    {
+      "id": "TCK-0573",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-17T16:24:00Z",
+      "resolved_at": "2026-01-22T17:18:12.554243Z"
+    },
+    {
+      "id": "TCK-0093",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-17T18:55:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0428",
+      "status": "closed",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-17T19:07:00Z",
+      "resolved_at": "2026-01-18T11:03:29.203291Z"
+    },
+    {
+      "id": "TCK-0228",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-17T21:27:00Z",
+      "resolved_at": "2026-01-18T17:00:56.777663Z"
+    },
+    {
+      "id": "TCK-0459",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-17T22:10:00Z",
+      "resolved_at": "2026-01-20T03:41:28.342931Z"
+    },
+    {
+      "id": "TCK-0473",
+      "status": "closed",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-17T22:51:00Z",
+      "resolved_at": "2026-01-18T13:12:24.262160Z"
+    },
+    {
+      "id": "TCK-0185",
+      "status": "open",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-17T23:01:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0362",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-17T23:28:00Z",
+      "resolved_at": "2026-01-20T09:10:55.627181Z"
+    },
+    {
+      "id": "TCK-0231",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-18T00:27:00Z",
+      "resolved_at": "2026-01-18T15:32:07.024911Z"
+    },
+    {
+      "id": "TCK-0551",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-18T00:45:00Z",
+      "resolved_at": "2026-01-18T10:35:45.831156Z"
+    },
+    {
+      "id": "TCK-0549",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-18T03:12:00Z",
+      "resolved_at": "2026-01-19T23:06:57.963006Z"
+    },
+    {
+      "id": "TCK-0330",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-18T04:19:00Z",
+      "resolved_at": "2026-01-18T08:59:18.034301Z"
+    },
+    {
+      "id": "TCK-0510",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-18T05:39:00Z",
+      "resolved_at": "2026-01-18T18:37:52.786997Z"
+    },
+    {
+      "id": "TCK-0067",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-18T06:07:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0374",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-18T07:08:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0575",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-18T07:20:00Z",
+      "resolved_at": "2026-01-18T16:20:59.709368Z"
+    },
+    {
+      "id": "TCK-0411",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-18T11:06:00Z",
+      "resolved_at": "2026-01-19T11:31:14.975329Z"
+    },
+    {
+      "id": "TCK-0370",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-18T11:15:00Z",
+      "resolved_at": "2026-01-19T14:18:55.790761Z"
+    },
+    {
+      "id": "TCK-0587",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-18T13:18:00Z",
+      "resolved_at": "2026-01-19T18:57:45.718033Z"
+    },
+    {
+      "id": "TCK-0491",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-18T16:12:00Z",
+      "resolved_at": "2026-01-19T12:50:57.374755Z"
+    },
+    {
+      "id": "TCK-0085",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-18T17:58:00Z",
+      "resolved_at": "2026-01-19T13:17:03.844794Z"
+    },
+    {
+      "id": "TCK-0388",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-18T21:11:00Z",
+      "resolved_at": "2026-01-18T22:23:29.504349Z"
+    },
+    {
+      "id": "TCK-0474",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-18T22:44:00Z",
+      "resolved_at": "2026-01-19T03:23:56.045417Z"
+    },
+    {
+      "id": "TCK-0015",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-19T04:15:00Z",
+      "resolved_at": "2026-01-19T07:15:08.808845Z"
+    },
+    {
+      "id": "TCK-0075",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-19T04:31:00Z",
+      "resolved_at": "2026-01-19T10:59:49.853014Z"
+    },
+    {
+      "id": "TCK-0131",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-19T05:24:00Z",
+      "resolved_at": "2026-01-22T11:28:45.469709Z"
+    },
+    {
+      "id": "TCK-0281",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-19T05:32:00Z",
+      "resolved_at": "2026-01-19T09:56:46.950495Z"
+    },
+    {
+      "id": "TCK-0534",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-19T08:09:00Z",
+      "resolved_at": "2026-01-19T16:45:13.877185Z"
+    },
+    {
+      "id": "TCK-0571",
+      "status": "in_progress",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-19T08:36:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0554",
+      "status": "closed",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-19T09:22:00Z",
+      "resolved_at": "2026-01-20T01:19:05.635608Z"
+    },
+    {
+      "id": "TCK-0132",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-19T09:28:00Z",
+      "resolved_at": "2026-01-20T02:30:01.491167Z"
+    },
+    {
+      "id": "TCK-0480",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-19T09:42:00Z",
+      "resolved_at": "2026-01-23T03:27:46.012624Z"
+    },
+    {
+      "id": "TCK-0403",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-19T10:25:00Z",
+      "resolved_at": "2026-01-20T08:49:15.616952Z"
+    },
+    {
+      "id": "TCK-0317",
+      "status": "open",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-19T10:49:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0313",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-19T10:54:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0274",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-19T11:33:00Z",
+      "resolved_at": "2026-01-20T00:53:10.294517Z"
+    },
+    {
+      "id": "TCK-0057",
+      "status": "open",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-19T11:52:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0083",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-19T13:12:00Z",
+      "resolved_at": "2026-01-20T08:37:33.489239Z"
+    },
+    {
+      "id": "TCK-0066",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-19T14:04:00Z",
+      "resolved_at": "2026-01-19T22:15:12.820802Z"
+    },
+    {
+      "id": "TCK-0120",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-19T14:12:00Z",
+      "resolved_at": "2026-01-20T15:34:47.897166Z"
+    },
+    {
+      "id": "TCK-0390",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-19T14:53:00Z",
+      "resolved_at": "2026-01-20T01:25:25.722039Z"
+    },
+    {
+      "id": "TCK-0414",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-19T14:53:00Z",
+      "resolved_at": "2026-01-20T18:39:30.512719Z"
+    },
+    {
+      "id": "TCK-0266",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-19T15:12:00Z",
+      "resolved_at": "2026-01-20T05:43:23.568756Z"
+    },
+    {
+      "id": "TCK-0533",
+      "status": "closed",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-19T16:48:00Z",
+      "resolved_at": "2026-01-19T19:55:56.034723Z"
+    },
+    {
+      "id": "TCK-0136",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-19T21:49:00Z",
+      "resolved_at": "2026-01-20T01:28:12.285180Z"
+    },
+    {
+      "id": "TCK-0158",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-19T21:50:00Z",
+      "resolved_at": "2026-01-20T08:36:37.485595Z"
+    },
+    {
+      "id": "TCK-0398",
+      "status": "open",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-19T22:21:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0116",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-19T22:34:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0509",
+      "status": "open",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-20T02:22:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0438",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-20T05:16:00Z",
+      "resolved_at": "2026-01-22T07:13:03.758821Z"
+    },
+    {
+      "id": "TCK-0187",
+      "status": "closed",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-20T05:57:00Z",
+      "resolved_at": "2026-01-20T07:48:06.967931Z"
+    },
+    {
+      "id": "TCK-0391",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-20T06:10:00Z",
+      "resolved_at": "2026-01-22T04:12:42.331294Z"
+    },
+    {
+      "id": "TCK-0151",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-20T07:27:00Z",
+      "resolved_at": "2026-01-21T12:33:52.600783Z"
+    },
+    {
+      "id": "TCK-0418",
+      "status": "closed",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-20T08:22:00Z",
+      "resolved_at": "2026-01-21T13:46:59.101135Z"
+    },
+    {
+      "id": "TCK-0486",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-20T10:01:00Z",
+      "resolved_at": "2026-01-20T20:10:39.151719Z"
+    },
+    {
+      "id": "TCK-0053",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-20T11:08:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0189",
+      "status": "resolved",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-20T12:42:00Z",
+      "resolved_at": "2026-01-24T09:39:17.234274Z"
+    },
+    {
+      "id": "TCK-0237",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-20T12:50:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0377",
+      "status": "open",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-20T14:44:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0456",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-20T18:34:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0528",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-20T19:33:00Z",
+      "resolved_at": "2026-01-20T20:27:34.521853Z"
+    },
+    {
+      "id": "TCK-0248",
+      "status": "resolved",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-21T00:18:00Z",
+      "resolved_at": "2026-01-21T19:38:44.410404Z"
+    },
+    {
+      "id": "TCK-0143",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-21T00:55:00Z",
+      "resolved_at": "2026-01-21T04:18:55.978682Z"
+    },
+    {
+      "id": "TCK-0157",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-21T01:29:00Z",
+      "resolved_at": "2026-01-21T08:03:01.156818Z"
+    },
+    {
+      "id": "TCK-0323",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-21T02:36:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0133",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-21T02:49:00Z",
+      "resolved_at": "2026-01-22T06:59:24.964808Z"
+    },
+    {
+      "id": "TCK-0442",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-21T03:12:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0078",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-21T03:24:00Z",
+      "resolved_at": "2026-01-22T10:37:17.735819Z"
+    },
+    {
+      "id": "TCK-0146",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-21T04:36:00Z",
+      "resolved_at": "2026-01-21T08:45:40.474924Z"
+    },
+    {
+      "id": "TCK-0168",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-21T05:43:00Z",
+      "resolved_at": "2026-02-09T20:58:01.705156Z"
+    },
+    {
+      "id": "TCK-0139",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-21T07:44:00Z",
+      "resolved_at": "2026-01-21T16:24:25.298423Z"
+    },
+    {
+      "id": "TCK-0282",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-21T11:54:00Z",
+      "resolved_at": "2026-01-22T17:41:23.498496Z"
+    },
+    {
+      "id": "TCK-0182",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-21T13:13:00Z",
+      "resolved_at": "2026-01-24T15:38:38.666420Z"
+    },
+    {
+      "id": "TCK-0477",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-21T13:36:00Z",
+      "resolved_at": "2026-01-21T19:11:34.521265Z"
+    },
+    {
+      "id": "TCK-0121",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-21T15:55:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0089",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-21T16:39:00Z",
+      "resolved_at": "2026-01-21T23:18:11.635921Z"
+    },
+    {
+      "id": "TCK-0433",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-21T18:38:00Z",
+      "resolved_at": "2026-01-22T02:42:44.429987Z"
+    },
+    {
+      "id": "TCK-0045",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-21T19:24:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0416",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-21T19:31:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0564",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-21T19:47:00Z",
+      "resolved_at": "2026-01-22T01:52:44.795118Z"
+    },
+    {
+      "id": "TCK-0244",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-21T19:54:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0384",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-21T20:06:00Z",
+      "resolved_at": "2026-01-22T04:23:11.725391Z"
+    },
+    {
+      "id": "TCK-0408",
+      "status": "open",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-21T20:06:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0046",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-21T20:34:00Z",
+      "resolved_at": "2026-01-23T16:27:25.984908Z"
+    },
+    {
+      "id": "TCK-0099",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-21T22:09:00Z",
+      "resolved_at": "2026-01-23T03:56:45.439500Z"
+    },
+    {
+      "id": "TCK-0333",
+      "status": "resolved",
+      "priority": "low",
+      "category": "security",
+      "created_at": "2026-01-21T23:07:00Z",
+      "resolved_at": "2026-01-22T21:31:52.931253Z"
+    },
+    {
+      "id": "TCK-0088",
+      "status": "open",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-22T00:17:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0342",
+      "status": "resolved",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-22T01:44:00Z",
+      "resolved_at": "2026-01-23T07:06:28.632671Z"
+    },
+    {
+      "id": "TCK-0164",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-22T03:06:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0243",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-22T03:29:00Z",
+      "resolved_at": "2026-01-23T07:50:25.864861Z"
+    },
+    {
+      "id": "TCK-0466",
+      "status": "closed",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-22T04:00:00Z",
+      "resolved_at": "2026-01-23T02:34:28.897747Z"
+    },
+    {
+      "id": "TCK-0150",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-22T04:10:00Z",
+      "resolved_at": "2026-01-22T17:06:26.762642Z"
+    },
+    {
+      "id": "TCK-0125",
+      "status": "closed",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-22T07:56:00Z",
+      "resolved_at": "2026-01-24T02:34:18.828796Z"
+    },
+    {
+      "id": "TCK-0225",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-22T08:17:00Z",
+      "resolved_at": "2026-01-23T20:05:39.680436Z"
+    },
+    {
+      "id": "TCK-0233",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-22T08:23:00Z",
+      "resolved_at": "2026-01-23T12:19:46.651189Z"
+    },
+    {
+      "id": "TCK-0596",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-22T08:35:00Z",
+      "resolved_at": "2026-01-22T18:06:13.575712Z"
+    },
+    {
+      "id": "TCK-0240",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-22T09:30:00Z",
+      "resolved_at": "2026-01-22T20:17:55.559218Z"
+    },
+    {
+      "id": "TCK-0059",
+      "status": "open",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-22T10:07:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0320",
+      "status": "resolved",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-22T10:16:00Z",
+      "resolved_at": "2026-01-24T09:53:03.346125Z"
+    },
+    {
+      "id": "TCK-0293",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-22T11:07:00Z",
+      "resolved_at": "2026-01-22T15:31:43.702373Z"
+    },
+    {
+      "id": "TCK-0492",
+      "status": "resolved",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-22T11:12:00Z",
+      "resolved_at": "2026-01-22T20:42:47.748598Z"
+    },
+    {
+      "id": "TCK-0328",
+      "status": "closed",
+      "priority": "critical",
+      "category": "notifications",
+      "created_at": "2026-01-22T11:37:00Z",
+      "resolved_at": "2026-01-22T12:37:41.457559Z"
+    },
+    {
+      "id": "TCK-0141",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-22T12:36:00Z",
+      "resolved_at": "2026-01-25T20:44:49.589964Z"
+    },
+    {
+      "id": "TCK-0519",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-22T13:15:00Z",
+      "resolved_at": "2026-01-22T19:11:03.440608Z"
+    },
+    {
+      "id": "TCK-0285",
+      "status": "open",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-22T13:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0524",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-22T14:38:00Z",
+      "resolved_at": "2026-01-23T11:08:37.429170Z"
+    },
+    {
+      "id": "TCK-0176",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-22T16:11:00Z",
+      "resolved_at": "2026-01-22T23:20:27.184093Z"
+    },
+    {
+      "id": "TCK-0041",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-22T16:46:00Z",
+      "resolved_at": "2026-01-23T23:34:27.040314Z"
+    },
+    {
+      "id": "TCK-0114",
+      "status": "closed",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-22T17:48:00Z",
+      "resolved_at": "2026-01-23T23:00:26.185806Z"
+    },
+    {
+      "id": "TCK-0178",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-22T19:10:00Z",
+      "resolved_at": "2026-01-25T16:01:11.616605Z"
+    },
+    {
+      "id": "TCK-0488",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-22T19:13:00Z",
+      "resolved_at": "2026-01-22T22:40:55.908304Z"
+    },
+    {
+      "id": "TCK-0580",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-22T21:00:00Z",
+      "resolved_at": "2026-01-24T05:07:14.862495Z"
+    },
+    {
+      "id": "TCK-0134",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-23T01:26:00Z",
+      "resolved_at": "2026-01-23T23:20:24.132209Z"
+    },
+    {
+      "id": "TCK-0220",
+      "status": "closed",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-23T03:08:00Z",
+      "resolved_at": "2026-01-23T12:19:16.810371Z"
+    },
+    {
+      "id": "TCK-0145",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-23T04:58:00Z",
+      "resolved_at": "2026-01-24T13:42:35.404646Z"
+    },
+    {
+      "id": "TCK-0167",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-23T06:29:00Z",
+      "resolved_at": "2026-02-09T04:07:59.353122Z"
+    },
+    {
+      "id": "TCK-0373",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "login",
+      "created_at": "2026-01-23T07:52:00Z",
+      "resolved_at": "2026-01-23T09:10:06.940985Z"
+    },
+    {
+      "id": "TCK-0113",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-23T08:10:00Z",
+      "resolved_at": "2026-01-24T01:10:12.270914Z"
+    },
+    {
+      "id": "TCK-0517",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-23T08:14:00Z",
+      "resolved_at": "2026-01-23T16:47:19.458898Z"
+    },
+    {
+      "id": "TCK-0260",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-23T08:31:00Z",
+      "resolved_at": "2026-01-23T19:41:53.745350Z"
+    },
+    {
+      "id": "TCK-0497",
+      "status": "in_progress",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-23T09:38:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0381",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-23T10:37:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0448",
+      "status": "closed",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-23T12:32:00Z",
+      "resolved_at": "2026-01-23T14:58:26.201154Z"
+    },
+    {
+      "id": "TCK-0279",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-23T12:33:00Z",
+      "resolved_at": "2026-01-26T10:51:18.854789Z"
+    },
+    {
+      "id": "TCK-0308",
+      "status": "open",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-23T13:05:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0506",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-23T13:57:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0278",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-23T15:15:00Z",
+      "resolved_at": "2026-01-24T01:15:41.562370Z"
+    },
+    {
+      "id": "TCK-0236",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-23T17:56:00Z",
+      "resolved_at": "2026-01-25T04:16:08.160993Z"
+    },
+    {
+      "id": "TCK-0357",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-24T00:23:00Z",
+      "resolved_at": "2026-01-25T04:30:58.436387Z"
+    },
+    {
+      "id": "TCK-0392",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-24T01:21:00Z",
+      "resolved_at": "2026-01-24T17:22:19.394011Z"
+    },
+    {
+      "id": "TCK-0239",
+      "status": "open",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-24T02:08:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0138",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-24T02:35:00Z",
+      "resolved_at": "2026-01-24T22:49:11.015466Z"
+    },
+    {
+      "id": "TCK-0462",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-24T03:46:00Z",
+      "resolved_at": "2026-01-24T06:39:21.846938Z"
+    },
+    {
+      "id": "TCK-0417",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-24T05:56:00Z",
+      "resolved_at": "2026-01-24T12:21:32.601226Z"
+    },
+    {
+      "id": "TCK-0195",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-24T07:37:00Z",
+      "resolved_at": "2026-01-24T19:27:24.875067Z"
+    },
+    {
+      "id": "TCK-0465",
+      "status": "open",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-24T11:21:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0540",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-24T12:09:00Z",
+      "resolved_at": "2026-01-24T20:21:06.645564Z"
+    },
+    {
+      "id": "TCK-0396",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-24T14:39:00Z",
+      "resolved_at": "2026-01-25T13:52:27.423941Z"
+    },
+    {
+      "id": "TCK-0269",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-24T14:46:00Z",
+      "resolved_at": "2026-01-25T02:30:37.089086Z"
+    },
+    {
+      "id": "TCK-0249",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-24T15:11:00Z",
+      "resolved_at": "2026-01-25T03:52:50.017176Z"
+    },
+    {
+      "id": "TCK-0400",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-24T17:11:00Z",
+      "resolved_at": "2026-01-25T00:50:00.084055Z"
+    },
+    {
+      "id": "TCK-0080",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-24T17:23:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0117",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-24T18:47:00Z",
+      "resolved_at": "2026-01-24T23:46:14.081392Z"
+    },
+    {
+      "id": "TCK-0213",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-24T18:58:00Z",
+      "resolved_at": "2026-01-25T17:46:42.850460Z"
+    },
+    {
+      "id": "TCK-0541",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-24T20:39:00Z",
+      "resolved_at": "2026-01-27T04:12:25.484382Z"
+    },
+    {
+      "id": "TCK-0489",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-24T22:19:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0219",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-24T22:57:00Z",
+      "resolved_at": "2026-01-25T17:09:53.504289Z"
+    },
+    {
+      "id": "TCK-0221",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-24T23:06:00Z",
+      "resolved_at": "2026-01-25T06:00:57.672956Z"
+    },
+    {
+      "id": "TCK-0017",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "security",
+      "created_at": "2026-01-25T01:56:00Z",
+      "resolved_at": "2026-01-25T03:19:52.556230Z"
+    },
+    {
+      "id": "TCK-0021",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-25T03:17:00Z",
+      "resolved_at": "2026-01-30T08:54:26.329928Z"
+    },
+    {
+      "id": "TCK-0302",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-25T04:02:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0024",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-25T05:51:00Z",
+      "resolved_at": "2026-01-27T03:26:38.450404Z"
+    },
+    {
+      "id": "TCK-0270",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-25T06:42:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0430",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-25T07:44:00Z",
+      "resolved_at": "2026-01-28T08:13:44.537942Z"
+    },
+    {
+      "id": "TCK-0344",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-25T09:03:00Z",
+      "resolved_at": "2026-01-26T11:23:27.243408Z"
+    },
+    {
+      "id": "TCK-0018",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-25T10:30:00Z",
+      "resolved_at": "2026-01-30T23:20:18.232589Z"
+    },
+    {
+      "id": "TCK-0100",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-25T11:49:00Z",
+      "resolved_at": "2026-01-28T00:29:36.626155Z"
+    },
+    {
+      "id": "TCK-0064",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-25T12:07:00Z",
+      "resolved_at": "2026-01-26T15:06:28.720321Z"
+    },
+    {
+      "id": "TCK-0166",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-25T14:02:00Z",
+      "resolved_at": "2026-01-25T15:59:00.922468Z"
+    },
+    {
+      "id": "TCK-0173",
+      "status": "closed",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-25T14:03:00Z",
+      "resolved_at": "2026-01-25T16:01:54.923890Z"
+    },
+    {
+      "id": "TCK-0355",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-25T16:09:00Z",
+      "resolved_at": "2026-01-27T04:56:46.390032Z"
+    },
+    {
+      "id": "TCK-0040",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-25T16:13:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0246",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-25T17:08:00Z",
+      "resolved_at": "2026-01-26T10:27:50.381987Z"
+    },
+    {
+      "id": "TCK-0310",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-25T17:25:00Z",
+      "resolved_at": "2026-01-25T21:28:18.668651Z"
+    },
+    {
+      "id": "TCK-0322",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-25T22:10:00Z",
+      "resolved_at": "2026-01-28T10:09:35.603868Z"
+    },
+    {
+      "id": "TCK-0234",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-25T23:26:00Z",
+      "resolved_at": "2026-01-27T12:55:37.558044Z"
+    },
+    {
+      "id": "TCK-0364",
+      "status": "open",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-26T03:41:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0039",
+      "status": "closed",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-26T07:02:00Z",
+      "resolved_at": "2026-01-26T11:39:28.517002Z"
+    },
+    {
+      "id": "TCK-0077",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-26T08:50:00Z",
+      "resolved_at": "2026-01-26T22:09:22.073896Z"
+    },
+    {
+      "id": "TCK-0296",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-26T09:34:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0186",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-26T13:24:00Z",
+      "resolved_at": "2026-01-27T12:39:51.004743Z"
+    },
+    {
+      "id": "TCK-0503",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-26T13:49:00Z",
+      "resolved_at": "2026-01-27T19:42:15.264986Z"
+    },
+    {
+      "id": "TCK-0288",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-26T14:51:00Z",
+      "resolved_at": "2026-01-26T18:54:05.324490Z"
+    },
+    {
+      "id": "TCK-0272",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-26T15:37:00Z",
+      "resolved_at": "2026-01-27T04:53:00.679270Z"
+    },
+    {
+      "id": "TCK-0206",
+      "status": "closed",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-26T15:44:00Z",
+      "resolved_at": "2026-01-28T02:06:58.326580Z"
+    },
+    {
+      "id": "TCK-0593",
+      "status": "closed",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-26T17:08:00Z",
+      "resolved_at": "2026-01-28T21:20:35.477724Z"
+    },
+    {
+      "id": "TCK-0097",
+      "status": "closed",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-26T18:08:00Z",
+      "resolved_at": "2026-01-27T08:37:33.815874Z"
+    },
+    {
+      "id": "TCK-0450",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-26T20:49:00Z",
+      "resolved_at": "2026-01-27T20:25:45.612933Z"
+    },
+    {
+      "id": "TCK-0118",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-26T21:05:00Z",
+      "resolved_at": "2026-01-28T00:37:46.658750Z"
+    },
+    {
+      "id": "TCK-0352",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-26T22:21:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0031",
+      "status": "resolved",
+      "priority": "high",
+      "category": "performance",
+      "created_at": "2026-01-26T23:43:00Z",
+      "resolved_at": "2026-01-27T08:54:07.294544Z"
+    },
+    {
+      "id": "TCK-0505",
+      "status": "closed",
+      "priority": "critical",
+      "category": "other",
+      "created_at": "2026-01-27T01:41:00Z",
+      "resolved_at": "2026-01-27T19:27:56.911895Z"
+    },
+    {
+      "id": "TCK-0598",
+      "status": "open",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-27T01:54:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0095",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "billing",
+      "created_at": "2026-01-27T04:55:00Z",
+      "resolved_at": "2026-01-27T06:44:25.693960Z"
+    },
+    {
+      "id": "TCK-0565",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-27T05:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0426",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-27T06:42:00Z",
+      "resolved_at": "2026-01-28T12:01:46.604058Z"
+    },
+    {
+      "id": "TCK-0290",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-27T07:50:00Z",
+      "resolved_at": "2026-01-28T10:13:07.333603Z"
+    },
+    {
+      "id": "TCK-0271",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-27T10:13:00Z",
+      "resolved_at": "2026-01-27T14:41:49.197879Z"
+    },
+    {
+      "id": "TCK-0149",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-27T12:57:00Z",
+      "resolved_at": "2026-01-27T20:12:10.711002Z"
+    },
+    {
+      "id": "TCK-0289",
+      "status": "resolved",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-27T13:33:00Z",
+      "resolved_at": "2026-01-28T01:26:39.832278Z"
+    },
+    {
+      "id": "TCK-0084",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-27T13:58:00Z",
+      "resolved_at": "2026-01-30T03:37:27.951981Z"
+    },
+    {
+      "id": "TCK-0129",
+      "status": "resolved",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-27T15:20:00Z",
+      "resolved_at": "2026-01-28T10:00:50.702711Z"
+    },
+    {
+      "id": "TCK-0561",
+      "status": "closed",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-27T15:35:00Z",
+      "resolved_at": "2026-01-27T18:16:34.965039Z"
+    },
+    {
+      "id": "TCK-0454",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-27T16:32:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0002",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-27T20:58:00Z",
+      "resolved_at": "2026-01-28T13:05:04.094875Z"
+    },
+    {
+      "id": "TCK-0589",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-27T21:15:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0208",
+      "status": "resolved",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-27T21:59:00Z",
+      "resolved_at": "2026-01-28T00:18:24.483052Z"
+    },
+    {
+      "id": "TCK-0393",
+      "status": "closed",
+      "priority": "high",
+      "category": "notifications",
+      "created_at": "2026-01-28T00:36:00Z",
+      "resolved_at": "2026-01-28T10:26:32.521997Z"
+    },
+    {
+      "id": "TCK-0372",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-28T02:33:00Z",
+      "resolved_at": "2026-01-28T06:49:39.277531Z"
+    },
+    {
+      "id": "TCK-0321",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T02:47:00Z",
+      "resolved_at": "2026-01-28T16:50:52.529989Z"
+    },
+    {
+      "id": "TCK-0110",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-28T03:51:00Z",
+      "resolved_at": "2026-01-28T09:35:42.203868Z"
+    },
+    {
+      "id": "TCK-0518",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T07:35:00Z",
+      "resolved_at": "2026-01-29T01:03:11.322863Z"
+    },
+    {
+      "id": "TCK-0251",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-28T10:13:00Z",
+      "resolved_at": "2026-01-29T11:58:36.921495Z"
+    },
+    {
+      "id": "TCK-0216",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-28T10:18:00Z",
+      "resolved_at": "2026-01-29T03:33:06.734230Z"
+    },
+    {
+      "id": "TCK-0478",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T10:58:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0600",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-28T11:57:00Z",
+      "resolved_at": "2026-01-29T15:08:13.076564Z"
+    },
+    {
+      "id": "TCK-0227",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-28T12:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0539",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-28T12:47:00Z",
+      "resolved_at": "2026-01-28T23:00:52.073535Z"
+    },
+    {
+      "id": "TCK-0256",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-28T12:55:00Z",
+      "resolved_at": "2026-01-28T20:29:53.457893Z"
+    },
+    {
+      "id": "TCK-0063",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T14:08:00Z",
+      "resolved_at": "2026-01-30T01:33:19.800537Z"
+    },
+    {
+      "id": "TCK-0154",
+      "status": "closed",
+      "priority": "critical",
+      "category": "reports",
+      "created_at": "2026-01-28T14:21:00Z",
+      "resolved_at": "2026-01-29T12:48:18.465250Z"
+    },
+    {
+      "id": "TCK-0025",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-28T14:33:00Z",
+      "resolved_at": "2026-01-29T16:47:31.527851Z"
+    },
+    {
+      "id": "TCK-0069",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-28T14:38:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0445",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-28T15:39:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0548",
+      "status": "closed",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-28T16:28:00Z",
+      "resolved_at": "2026-01-30T23:17:11.215111Z"
+    },
+    {
+      "id": "TCK-0010",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-28T17:20:00Z",
+      "resolved_at": "2026-01-29T20:07:22.902182Z"
+    },
+    {
+      "id": "TCK-0420",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T18:34:00Z",
+      "resolved_at": "2026-01-29T16:57:43.231110Z"
+    },
+    {
+      "id": "TCK-0224",
+      "status": "closed",
+      "priority": "critical",
+      "category": "performance",
+      "created_at": "2026-01-28T18:55:00Z",
+      "resolved_at": "2026-01-28T19:50:39.225133Z"
+    },
+    {
+      "id": "TCK-0073",
+      "status": "open",
+      "priority": "critical",
+      "category": "reports",
+      "created_at": "2026-01-28T19:40:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0590",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-28T19:43:00Z",
+      "resolved_at": "2026-01-29T09:37:59.212375Z"
+    },
+    {
+      "id": "TCK-0048",
+      "status": "closed",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-28T20:06:00Z",
+      "resolved_at": "2026-01-29T05:06:58.462732Z"
+    },
+    {
+      "id": "TCK-0595",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-28T21:27:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0177",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-28T23:51:00Z",
+      "resolved_at": "2026-02-01T13:47:26.021011Z"
+    },
+    {
+      "id": "TCK-0287",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-29T01:22:00Z",
+      "resolved_at": "2026-01-31T01:18:14.471695Z"
+    },
+    {
+      "id": "TCK-0578",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-29T02:41:00Z",
+      "resolved_at": "2026-01-29T11:51:15.620498Z"
+    },
+    {
+      "id": "TCK-0291",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "notifications",
+      "created_at": "2026-01-29T04:55:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0562",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-29T05:55:00Z",
+      "resolved_at": "2026-01-30T00:00:21.198011Z"
+    },
+    {
+      "id": "TCK-0574",
+      "status": "resolved",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-29T08:37:00Z",
+      "resolved_at": "2026-01-29T23:48:49.282426Z"
+    },
+    {
+      "id": "TCK-0065",
+      "status": "closed",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-29T08:39:00Z",
+      "resolved_at": "2026-01-29T09:12:32.150753Z"
+    },
+    {
+      "id": "TCK-0550",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-29T09:08:00Z",
+      "resolved_at": "2026-01-30T00:30:51.674485Z"
+    },
+    {
+      "id": "TCK-0207",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "performance",
+      "created_at": "2026-01-29T10:08:00Z",
+      "resolved_at": "2026-01-29T21:36:21.467752Z"
+    },
+    {
+      "id": "TCK-0122",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-29T10:43:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0007",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-29T14:38:00Z",
+      "resolved_at": "2026-02-01T00:59:21.784886Z"
+    },
+    {
+      "id": "TCK-0074",
+      "status": "open",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-29T15:52:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0483",
+      "status": "closed",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-29T16:27:00Z",
+      "resolved_at": "2026-02-01T19:46:14.336901Z"
+    },
+    {
+      "id": "TCK-0387",
+      "status": "closed",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-29T19:17:00Z",
+      "resolved_at": "2026-01-31T00:25:22.524326Z"
+    },
+    {
+      "id": "TCK-0192",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-29T19:35:00Z",
+      "resolved_at": "2026-01-31T03:39:51.343718Z"
+    },
+    {
+      "id": "TCK-0050",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-29T20:45:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0052",
+      "status": "open",
+      "priority": "high",
+      "category": "other",
+      "created_at": "2026-01-29T23:53:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0263",
+      "status": "closed",
+      "priority": "high",
+      "category": "login",
+      "created_at": "2026-01-30T00:32:00Z",
+      "resolved_at": "2026-01-30T04:30:14.283548Z"
+    },
+    {
+      "id": "TCK-0407",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-30T02:04:00Z",
+      "resolved_at": "2026-01-30T13:54:24.237817Z"
+    },
+    {
+      "id": "TCK-0267",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-30T02:49:00Z",
+      "resolved_at": "2026-01-30T16:15:25.249779Z"
+    },
+    {
+      "id": "TCK-0011",
+      "status": "resolved",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-30T03:03:00Z",
+      "resolved_at": "2026-01-31T20:49:01.422545Z"
+    },
+    {
+      "id": "TCK-0255",
+      "status": "in_progress",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-30T08:41:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0329",
+      "status": "closed",
+      "priority": "critical",
+      "category": "reports",
+      "created_at": "2026-01-30T09:28:00Z",
+      "resolved_at": "2026-01-30T17:45:56.651326Z"
+    },
+    {
+      "id": "TCK-0484",
+      "status": "closed",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-30T09:35:00Z",
+      "resolved_at": "2026-01-31T13:01:32.145419Z"
+    },
+    {
+      "id": "TCK-0447",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-30T09:47:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0033",
+      "status": "closed",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-30T09:48:00Z",
+      "resolved_at": "2026-01-30T16:57:17.037653Z"
+    },
+    {
+      "id": "TCK-0394",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "integrations",
+      "created_at": "2026-01-30T10:41:00Z",
+      "resolved_at": "2026-01-31T12:19:48.710306Z"
+    },
+    {
+      "id": "TCK-0546",
+      "status": "closed",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-30T11:06:00Z",
+      "resolved_at": "2026-01-30T16:04:19.916757Z"
+    },
+    {
+      "id": "TCK-0305",
+      "status": "closed",
+      "priority": "low",
+      "category": "other",
+      "created_at": "2026-01-30T17:07:00Z",
+      "resolved_at": "2026-01-31T21:58:44.252772Z"
+    },
+    {
+      "id": "TCK-0592",
+      "status": "resolved",
+      "priority": "low",
+      "category": "mobile",
+      "created_at": "2026-01-30T19:24:00Z",
+      "resolved_at": "2026-01-31T08:03:26.717656Z"
+    },
+    {
+      "id": "TCK-0463",
+      "status": "closed",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-30T20:12:00Z",
+      "resolved_at": "2026-01-31T21:41:00.549766Z"
+    },
+    {
+      "id": "TCK-0217",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "mobile",
+      "created_at": "2026-01-30T20:35:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0493",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-30T21:28:00Z",
+      "resolved_at": "2026-01-31T11:28:15.804686Z"
+    },
+    {
+      "id": "TCK-0153",
+      "status": "closed",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-30T22:57:00Z",
+      "resolved_at": "2026-02-01T00:55:20.357528Z"
+    },
+    {
+      "id": "TCK-0446",
+      "status": "closed",
+      "priority": "low",
+      "category": "integrations",
+      "created_at": "2026-01-30T23:09:00Z",
+      "resolved_at": "2026-02-02T08:34:04.893152Z"
+    },
+    {
+      "id": "TCK-0032",
+      "status": "resolved",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-30T23:47:00Z",
+      "resolved_at": "2026-02-01T01:14:29.225909Z"
+    },
+    {
+      "id": "TCK-0358",
+      "status": "closed",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-31T00:06:00Z",
+      "resolved_at": "2026-01-31T07:58:00.771748Z"
+    },
+    {
+      "id": "TCK-0334",
+      "status": "closed",
+      "priority": "low",
+      "category": "reports",
+      "created_at": "2026-01-31T01:06:00Z",
+      "resolved_at": "2026-01-31T19:46:46.493015Z"
+    },
+    {
+      "id": "TCK-0457",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-31T07:32:00Z",
+      "resolved_at": "2026-02-04T19:19:39.850946Z"
+    },
+    {
+      "id": "TCK-0196",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "other",
+      "created_at": "2026-01-31T08:41:00Z",
+      "resolved_at": "2026-01-31T21:31:46.802385Z"
+    },
+    {
+      "id": "TCK-0522",
+      "status": "resolved",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-31T09:03:00Z",
+      "resolved_at": "2026-01-31T14:42:34.223779Z"
+    },
+    {
+      "id": "TCK-0262",
+      "status": "closed",
+      "priority": "critical",
+      "category": "integrations",
+      "created_at": "2026-01-31T09:27:00Z",
+      "resolved_at": "2026-01-31T11:50:53.127218Z"
+    },
+    {
+      "id": "TCK-0030",
+      "status": "open",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-31T10:42:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0314",
+      "status": "resolved",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-31T11:00:00Z",
+      "resolved_at": "2026-02-01T05:31:24.345073Z"
+    },
+    {
+      "id": "TCK-0009",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-31T12:00:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0253",
+      "status": "closed",
+      "priority": "low",
+      "category": "notifications",
+      "created_at": "2026-01-31T13:06:00Z",
+      "resolved_at": "2026-02-02T05:27:03.306582Z"
+    },
+    {
+      "id": "TCK-0340",
+      "status": "closed",
+      "priority": "critical",
+      "category": "mobile",
+      "created_at": "2026-01-31T13:17:00Z",
+      "resolved_at": "2026-01-31T15:24:44.143417Z"
+    },
+    {
+      "id": "TCK-0557",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-31T13:51:00Z",
+      "resolved_at": "2026-02-01T03:29:16.973524Z"
+    },
+    {
+      "id": "TCK-0072",
+      "status": "closed",
+      "priority": "high",
+      "category": "billing",
+      "created_at": "2026-01-31T14:52:00Z",
+      "resolved_at": "2026-01-31T16:57:03.092383Z"
+    },
+    {
+      "id": "TCK-0162",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-31T14:54:00Z",
+      "resolved_at": "2026-02-01T19:30:14.512621Z"
+    },
+    {
+      "id": "TCK-0360",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "billing",
+      "created_at": "2026-01-31T16:13:00Z",
+      "resolved_at": "2026-01-31T19:55:21.056813Z"
+    },
+    {
+      "id": "TCK-0144",
+      "status": "open",
+      "priority": "medium",
+      "category": "reports",
+      "created_at": "2026-01-31T16:34:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0163",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "security",
+      "created_at": "2026-01-31T17:06:00Z",
+      "resolved_at": "2026-02-03T05:00:05.138580Z"
+    },
+    {
+      "id": "TCK-0161",
+      "status": "closed",
+      "priority": "low",
+      "category": "billing",
+      "created_at": "2026-01-31T18:43:00Z",
+      "resolved_at": "2026-02-01T07:09:33.678985Z"
+    },
+    {
+      "id": "TCK-0568",
+      "status": "closed",
+      "priority": "low",
+      "category": "performance",
+      "created_at": "2026-01-31T19:11:00Z",
+      "resolved_at": "2026-02-01T17:41:22.210017Z"
+    },
+    {
+      "id": "TCK-0215",
+      "status": "open",
+      "priority": "low",
+      "category": "login",
+      "created_at": "2026-01-31T20:58:00Z",
+      "resolved_at": null
+    },
+    {
+      "id": "TCK-0214",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-31T21:32:00Z",
+      "resolved_at": "2026-02-01T12:39:55.268939Z"
+    },
+    {
+      "id": "TCK-0423",
+      "status": "resolved",
+      "priority": "high",
+      "category": "mobile",
+      "created_at": "2026-01-31T21:58:00Z",
+      "resolved_at": "2026-02-01T11:09:42.717333Z"
+    },
+    {
+      "id": "TCK-0397",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "login",
+      "created_at": "2026-01-31T22:15:00Z",
+      "resolved_at": "2026-02-01T21:12:36.873742Z"
+    },
+    {
+      "id": "TCK-0295",
+      "status": "resolved",
+      "priority": "high",
+      "category": "integrations",
+      "created_at": "2026-01-31T23:33:00Z",
+      "resolved_at": "2026-02-01T14:44:30.130986Z"
+    },
+    {
+      "id": "TCK-0156",
+      "status": "closed",
+      "priority": "high",
+      "category": "reports",
+      "created_at": "2026-01-31T23:40:00Z",
+      "resolved_at": "2026-02-02T03:33:47.688237Z"
+    }
+  ]
+}
