@@ -81,6 +81,14 @@ ruff check . && ruff format --check .
 python scripts/generate_sample.py   # regenera examples/sample.json (semilla fija)
 ```
 
+Las versiones están fijadas en `requirements.txt` y `requirements-dev.txt`. Tras cambiar
+dependencias en `pyproject.toml`, regenéralas con `pip-tools`:
+
+```bash
+pip-compile --strip-extras -o requirements.txt pyproject.toml
+pip-compile --strip-extras --extra dev -o requirements-dev.txt pyproject.toml
+```
+
 Como referencia, un informe de 10 000 tickets se genera en alrededor de un segundo en una laptop.
 
 ## Estructura

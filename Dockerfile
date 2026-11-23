@@ -8,9 +8,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 RUN useradd --create-home --uid 10001 app
 WORKDIR /app
 
-COPY pyproject.toml ./
+COPY pyproject.toml requirements.txt ./
 COPY app ./app
-RUN pip install .
+# Pinned versions from requirements.txt (pip-compile); the package itself adds nothing new.
+RUN pip install -r requirements.txt && pip install --no-deps .
 
 USER app
 # Build matplotlib's font cache now so the container can run with a read-only filesystem.
