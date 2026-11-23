@@ -39,6 +39,11 @@ def test_health():
     assert r.json() == {"status": "ok"}
 
 
+@pytest.mark.parametrize("path", ["/docs", "/redoc", "/openapi.json"])
+def test_api_docs_are_disabled(path):
+    assert client.get(path).status_code == 404
+
+
 def test_contract_accepts_valid_request():
     ReportRequest.model_validate(request())
 

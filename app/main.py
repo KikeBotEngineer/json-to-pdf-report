@@ -40,7 +40,8 @@ class BodyLimit:
         await self.app(scope, limited_receive, send)
 
 
-app = FastAPI(title="json-to-pdf-report")
+# No Swagger/OpenAPI in any environment: the contract lives in ARQUITECTURA.md.
+app = FastAPI(title="json-to-pdf-report", docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(BodyLimit)
 
 

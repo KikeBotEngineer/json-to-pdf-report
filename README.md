@@ -28,8 +28,6 @@ curl -X POST localhost:8000/report \
   -o report.pdf
 ```
 
-Swagger en <http://localhost:8000/docs>.
-
 ### Con Docker
 
 ```bash

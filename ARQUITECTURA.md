@@ -86,7 +86,7 @@ El pipeline tiene **4 etapas**, cada una es una función pura en su propio módu
 
 `200 {"status": "ok"}`
 
-Swagger está disponible en `/docs`.
+No se expone Swagger ni `/openapi.json`; este documento es la referencia del contrato.
 
 ## 4. Contenido del PDF
 
@@ -115,7 +115,7 @@ Diseño visual: paleta neutra propia, tipografía Helvetica (base de ReportLab, 
 
 | Decisión | Motivo |
 |---|---|
-| **Contrato Pydantic, no `dict`** | Errores 422 claros y documentados en Swagger, sin validación manual. |
+| **Contrato Pydantic, no `dict`** | Errores 422 claros, sin validación manual. |
 | **Todo en memoria (`BytesIO`)**, sin archivos temporales | No hay limpieza que olvidar, no hay disco compartido entre peticiones y es compatible con contenedores de solo lectura. |
 | **API orientada a objetos de matplotlib (`Figure`)**, no `pyplot` | `pyplot` guarda estado global y no es seguro entre hilos. `Figure()` es local a cada petición. Backend `Agg` (sin GUI). |
 | **Endpoint `def` (síncrono), no `async def`** | El trabajo es de CPU. FastAPI corre los `def` en su threadpool y no bloquea el event loop. |
