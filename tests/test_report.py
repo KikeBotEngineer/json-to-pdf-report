@@ -57,3 +57,33 @@ def test_contract_rejects_inverted_period():
     body = request() | {"period": {"start": "2026-02-01", "end": "2026-01-01"}}
     with pytest.raises(ValidationError):
         ReportRequest.model_validate(body)
+
+
+def test_metrics_small_case():
+    from app.metrics import PriorityRow, compute
+
+    req = ReportRequest.model_validate(
+        request(
+            ticket(id="A", priority="high", resolved_at="2026-01-03T11:00:00Z"),  # 2 h
+            ticket(
+                id="B", status="closed", priority="low", resolved_at="2026-01-03T13:00:00Z"
+            ),  # 4 h
+            ticket(id="C", priority="high", resolved_at="2026-01-03T15:00:00Z"),  # 6 h
+            ticket(id="D", status="open", priority="medium", resolved_at=None),
+            ticket(id="E", status="in_progress", priority="critical", resolved_at=None),
+        )
+    )
+    m, df = compute(req)
+
+    assert (m.total, m.open, m.resolved) == (5, 2, 3)
+    assert m.pct_resolved == pytest.approx(60.0)
+    assert m.mean_hours == pytest.approx(4.0)
+    assert m.median_hours == pytest.approx(4.0)
+    assert m.p90_hours == pytest.approx(5.6)  # linear interpolation over [2, 4, 6]
+    assert m.by_priority == [
+        PriorityRow("low", 1, pytest.approx(4.0)),
+        PriorityRow("medium", 1, None),
+        PriorityRow("high", 2, pytest.approx(4.0)),
+        PriorityRow("critical", 1, None),
+    ]
+    assert len(df) == 5
