@@ -65,7 +65,7 @@ El pipeline tiene **4 etapas**, cada una es una función pura en su propio módu
 | Campo | Tipo | Reglas |
 |---|---|---|
 | `title` | string | 1 a 120 caracteres |
-| `period.start` / `period.end` | date | `start <= end` |
+| `period.start` / `period.end` | date | `start <= end`, máximo 366 días |
 | `tickets` | array | 1 a 10 000 elementos |
 | `tickets[].id` | string | 1 a 50 caracteres |
 | `tickets[].status` | enum | `open`, `in_progress`, `resolved`, `closed` |

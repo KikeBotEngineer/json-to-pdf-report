@@ -64,6 +64,17 @@ def test_contract_rejects_inverted_period():
         ReportRequest.model_validate(body)
 
 
+def test_contract_accepts_leap_year_period():
+    body = request() | {"period": {"start": "2024-01-01", "end": "2024-12-31"}}
+    ReportRequest.model_validate(body)
+
+
+def test_report_rejects_overlong_period_with_422():
+    body = request() | {"period": {"start": "0001-01-01", "end": "9999-12-31"}}
+    r = client.post("/report", json=body)
+    assert r.status_code == 422
+
+
 def test_metrics_small_case():
     from app.metrics import PriorityRow, compute
 

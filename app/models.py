@@ -4,6 +4,9 @@ from typing import Annotated
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+# One chart point per day; an unbounded period lets one request pin a worker.
+MAX_PERIOD_DAYS = 366
+
 
 class Status(StrEnum):
     open = "open"
@@ -31,6 +34,8 @@ class Period(Strict):
     def check_order(self):
         if self.start > self.end:
             raise ValueError("period.start must be <= period.end")
+        if (self.end - self.start).days >= MAX_PERIOD_DAYS:
+            raise ValueError(f"period must span at most {MAX_PERIOD_DAYS} days")
         return self
 
 
