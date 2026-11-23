@@ -57,7 +57,7 @@ def compute(req: ReportRequest) -> tuple[Metrics, pd.DataFrame]:
         total=total,
         open=total - int(done.sum()),
         resolved=int(done.sum()),
-        pct_resolved=100 * done.sum() / total,
+        pct_resolved=float(100 * done.sum() / total),
         mean_hours=_num(hours.mean()),
         median_hours=_num(hours.median()),
         p90_hours=_num(hours.quantile(0.9)),
