@@ -1,4 +1,6 @@
-from fastapi import FastAPI, HTTPException, Response
+from fastapi import FastAPI, HTTPException, Request, Response
+from fastapi.encoders import jsonable_encoder
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
 from app import charts, metrics, pdf
@@ -40,6 +42,13 @@ class BodyLimit:
 
 app = FastAPI(title="json-to-pdf-report")
 app.add_middleware(BodyLimit)
+
+
+@app.exception_handler(RequestValidationError)
+async def validation_error(_: Request, exc: RequestValidationError) -> JSONResponse:
+    # Default 422 echoes each offending "input"; on a 5 MB body that reflects it back.
+    errors = [{k: v for k, v in e.items() if k != "input"} for e in exc.errors()]
+    return JSONResponse({"detail": jsonable_encoder(errors)}, status_code=422)
 
 
 @app.get("/health")

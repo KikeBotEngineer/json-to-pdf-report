@@ -154,6 +154,13 @@ def test_report_rejects_invalid_contract_with_422():
     assert r.status_code == 422
 
 
+def test_report_422_does_not_echo_input():
+    r = client.post("/report", json=request() | {"extra": "SECRET" * 100})
+    assert r.status_code == 422
+    assert "SECRET" not in r.text
+    assert r.json()["detail"][0]["loc"] == ["body", "extra"]
+
+
 def test_report_survives_markup_in_title():
     r = client.post("/report", json=request() | {"title": "<b>Q1 & <unclosed"})
     assert r.status_code == 200
