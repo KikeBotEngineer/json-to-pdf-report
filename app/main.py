@@ -18,6 +18,9 @@ class BodyLimit:
             return await self.app(scope, receive, send)
 
         length = dict(scope["headers"]).get(b"content-length")
+        if length is not None and not length.isdigit():
+            response = JSONResponse({"detail": "invalid content-length"}, status_code=400)
+            return await response(scope, receive, send)
         if length is not None and int(length) > MAX_BODY_BYTES:
             response = JSONResponse({"detail": "payload too large"}, status_code=413)
             return await response(scope, receive, send)

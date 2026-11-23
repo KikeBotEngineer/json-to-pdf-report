@@ -149,6 +149,16 @@ def test_report_rejects_large_body_by_content_length():
     assert r.json() == {"detail": "payload too large"}
 
 
+@pytest.mark.parametrize("length", ["abc", "-1", ""])
+def test_report_rejects_invalid_content_length_with_400(length):
+    r = client.post(
+        "/report",
+        content=b"{}",
+        headers={"content-type": "application/json", "content-length": length},
+    )
+    assert r.status_code == 400
+
+
 def test_report_rejects_large_chunked_body():
     def chunks():
         for _ in range(6):
