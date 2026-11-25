@@ -1,5 +1,7 @@
 # json-to-pdf-report
 
+[![ci](https://github.com/KikeBotEngineer/json-to-pdf-report/actions/workflows/ci.yml/badge.svg)](https://github.com/KikeBotEngineer/json-to-pdf-report/actions/workflows/ci.yml)
+
 API HTTP que recibe un JSON con tickets de soporte y devuelve un informe PDF con KPIs, cuatro gráficas y una tabla por prioridad.
 
 Todo ocurre en memoria: sin base de datos, sin archivos temporales, sin estado entre peticiones. El diseño y sus motivos están en [ARQUITECTURA.md](ARQUITECTURA.md).
@@ -103,3 +105,7 @@ app/
 scripts/generate_sample.py
 tests/test_report.py
 ```
+
+## Licencia
+
+[MIT](LICENSE)
